@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "Juego de Adivinanza de Números",
+  "short_name": "Adivinanza",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f4f4f4",
+  "theme_color": "#007bff",
+  "version": "1.0",
+  "description": "Un juego para adivinar un número de 4 cifras.",
+  "icons": [
+    {
+      "src": "icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "225x225",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-wide.png",
+      "sizes": "320x320",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshot-narrow.png",
+      "sizes": "320x320",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "permissions": [],
+  "web_accessible_resources": [
+    {
+      "resources": ["styles.css", "script.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

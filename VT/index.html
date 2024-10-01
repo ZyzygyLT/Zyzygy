@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <title>Número Aleatorio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon-48x48.png" type="image/png">
+
+</head>
+<body>
+    <div id="difficultySection">
+        <h1>Selecciona Dificultad</h1>
+        <input type="radio" id="easy" name="difficulty" value="easy" required>
+        <label for="easy">Fácil (12 intentos)</label>
+        <input type="radio" id="normal" name="difficulty" value="normal">
+        <label for="normal">Normal (10 intentos)</label>
+        <input type="radio" id="hard" name="difficulty" value="hard">
+        <label for="hard">Difícil (8 intentos)</label>
+        <button onclick="setDifficulty()">Confirmar Dificultad</button>
+    </div>
+
+    <div id="gameSection" style="display: none;">
+        <h1>Generador de Número Aleatorio</h1>
+        <input type="text" id="userInput" maxlength="4" placeholder="Ingresa un número de 4 cifras" disabled>
+        <button id="checkButton" onclick="checkNumber()" disabled>Comprobar Número</button>
+        <div id="result"></div>
+        <div id="history"></div>
+        <button id="restartButton" onclick="restartGame()" style="display: none;">Empezar de nuevo</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js')
+                    .then(reg => console.log('Service Worker registrado con éxito:', reg))
+                    .catch(err => console.log('Error al registrar el Service Worker:', err));
+            });
+        }
+    </script>
+</body>
+</html>
