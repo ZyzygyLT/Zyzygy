@@ -1,0 +1,61 @@
+{
+  "id": "sim_player1",
+  "name": "Sim Warrior",
+  "class": "warrior",
+  "level": 3,
+  "hp": 29,
+  "maxHp": 70,
+  "attack": 15,
+  "defense": 8,
+  "stats": {
+    "strength": 6,
+    "luck": 1
+  },
+  "xp": null,
+  "maxXp": 900,
+  "gold": 4,
+  "inventory": [
+    {
+      "id": "item_1770118237240_893912",
+      "name": "Goblin Ear",
+      "originalName": "Goblin Ear",
+      "type": "material",
+      "rarity": "Poco Común",
+      "rarityLevel": {
+        "name": "Poco Común",
+        "weight": 15,
+        "color": "#1EFF00",
+        "statMultiplier": 1.3
+      },
+      "stats": {
+        "value": 3
+      },
+      "value": 12,
+      "prefix": null,
+      "suffix": null,
+      "color": "#1EFF00",
+      "requirements": null
+    },
+    {
+      "id": "item_1770118237240_518896",
+      "name": "Leather Armor",
+      "originalName": "Leather Armor",
+      "type": "armor",
+      "rarity": "Común",
+      "rarityLevel": {
+        "name": "Común",
+        "weight": 75,
+        "color": "#FFFFFF",
+        "statMultiplier": 1
+      },
+      "stats": {
+        "defense": 2
+      },
+      "value": 22,
+      "prefix": null,
+      "suffix": null,
+      "color": "#FFFFFF",
+      "requirements": null
+    }
+  ]
+}

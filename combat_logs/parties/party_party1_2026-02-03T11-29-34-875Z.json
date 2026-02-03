@@ -1,0 +1,540 @@
+{
+  "partyId": "party1",
+  "partyName": "Los Valientes",
+  "dungeon": "Cueva del Dragón",
+  "status": "completed",
+  "battles": [
+    {
+      "battleId": "battle_1770118174850_encounter_1770118174859_6if1dhnji",
+      "encounterId": "encounter_1770118174859_6if1dhnji",
+      "encounterType": "normal",
+      "enemyType": "spider",
+      "enemyCount": 3,
+      "startTime": "2026-02-03T11:29:34.860Z",
+      "turns": [
+        {
+          "turn": 1,
+          "actions": [
+            {
+              "sourceId": "enemy_spider_1770118174858_h4w10o",
+              "sourceName": "Araña Gigante",
+              "sourceType": "enemy",
+              "action": "attack",
+              "targetId": "player2",
+              "targetName": "Gandalf",
+              "targetType": "party",
+              "damage": 4,
+              "defeated": false,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:29:34.860Z"
+            },
+            {
+              "sourceId": "enemy_spider_1770118174858_6gusqo",
+              "sourceName": "Araña Gigante",
+              "sourceType": "enemy",
+              "action": "attack",
+              "targetId": "player2",
+              "targetName": "Gandalf",
+              "targetType": "party",
+              "damage": 4,
+              "defeated": false,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:29:34.860Z"
+            },
+            {
+              "sourceId": "enemy_spider_1770118174858_lq81cx",
+              "sourceName": "Araña Gigante",
+              "sourceType": "enemy",
+              "action": "attack",
+              "targetId": "player1",
+              "targetName": "Aragorn",
+              "targetType": "party",
+              "damage": 3,
+              "defeated": false,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:29:34.860Z"
+            },
+            {
+              "sourceId": "player1",
+              "sourceName": "Aragorn",
+              "sourceType": "party",
+              "action": "attack",
+              "targetId": "enemy_spider_1770118174858_h4w10o",
+              "targetName": "Araña Gigante",
+              "targetType": "enemy",
+              "damage": 24,
+              "defeated": false,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:29:34.860Z"
+            },
+            {
+              "sourceId": "player2",
+              "sourceName": "Gandalf",
+              "sourceType": "party",
+              "action": "attack",
+              "targetId": "enemy_spider_1770118174858_h4w10o",
+              "targetName": "Araña Gigante",
+              "targetType": "enemy",
+              "damage": 14,
+              "defeated": true,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:29:34.861Z"
+            }
+          ],
+          "damageDealt": {
+            "party": 38,
+            "enemies": 11
+          },
+          "heals": {
+            "party": 0,
+            "enemies": 0
+          },
+          "enemiesDefeated": [
+            {
+              "enemyId": "enemy_spider_1770118174858_h4w10o",
+              "enemyName": "Araña Gigante",
+              "killedBy": "Gandalf",
+              "turn": 1
+            }
+          ],
+          "partyStatus": [
+            {
+              "id": "player1",
+              "name": "Aragorn",
+              "hp": 77,
+              "maxHp": 100
+            },
+            {
+              "id": "player2",
+              "name": "Gandalf",
+              "hp": 52,
+              "maxHp": 80
+            }
+          ],
+          "enemyStatus": [
+            {
+              "id": "enemy_spider_1770118174858_6gusqo",
+              "name": "Araña Gigante",
+              "hp": 27,
+              "maxHp": 27
+            },
+            {
+              "id": "enemy_spider_1770118174858_lq81cx",
+              "name": "Araña Gigante",
+              "hp": 27,
+              "maxHp": 27
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "actions": [
+            {
+              "sourceId": "enemy_spider_1770118174858_6gusqo",
+              "sourceName": "Araña Gigante",
+              "sourceType": "enemy",
+              "action": "attack",
+              "targetId": "player2",
+              "targetName": "Gandalf",
+              "targetType": "party",
+              "damage": 4,
+              "defeated": false,
+              "turn": 2,
+              "timestamp": "2026-02-03T11:29:34.861Z"
+            },
+            {
+              "sourceId": "enemy_spider_1770118174858_lq81cx",
+              "sourceName": "Araña Gigante",
+              "sourceType": "enemy",
+              "action": "attack",
+              "targetId": "player1",
+              "targetName": "Aragorn",
+              "targetType": "party",
+              "damage": 3,
+              "defeated": false,
+              "turn": 2,
+              "timestamp": "2026-02-03T11:29:34.861Z"
+            },
+            {
+              "sourceId": "player1",
+              "sourceName": "Aragorn",
+              "sourceType": "party",
+              "action": "attack",
+              "targetId": "enemy_spider_1770118174858_6gusqo",
+              "targetName": "Araña Gigante",
+              "targetType": "enemy",
+              "damage": 24,
+              "defeated": false,
+              "turn": 2,
+              "timestamp": "2026-02-03T11:29:34.861Z"
+            },
+            {
+              "sourceId": "player2",
+              "sourceName": "Gandalf",
+              "sourceType": "party",
+              "action": "attack",
+              "targetId": "enemy_spider_1770118174858_6gusqo",
+              "targetName": "Araña Gigante",
+              "targetType": "enemy",
+              "damage": 14,
+              "defeated": true,
+              "turn": 2,
+              "timestamp": "2026-02-03T11:29:34.861Z"
+            }
+          ],
+          "damageDealt": {
+            "party": 38,
+            "enemies": 7
+          },
+          "heals": {
+            "party": 0,
+            "enemies": 0
+          },
+          "enemiesDefeated": [
+            {
+              "enemyId": "enemy_spider_1770118174858_6gusqo",
+              "enemyName": "Araña Gigante",
+              "killedBy": "Gandalf",
+              "turn": 2
+            }
+          ],
+          "partyStatus": [
+            {
+              "id": "player1",
+              "name": "Aragorn",
+              "hp": 74,
+              "maxHp": 100
+            },
+            {
+              "id": "player2",
+              "name": "Gandalf",
+              "hp": 48,
+              "maxHp": 80
+            }
+          ],
+          "enemyStatus": [
+            {
+              "id": "enemy_spider_1770118174858_lq81cx",
+              "name": "Araña Gigante",
+              "hp": 27,
+              "maxHp": 27
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "actions": [
+            {
+              "sourceId": "enemy_spider_1770118174858_lq81cx",
+              "sourceName": "Araña Gigante",
+              "sourceType": "enemy",
+              "action": "attack",
+              "targetId": "player2",
+              "targetName": "Gandalf",
+              "targetType": "party",
+              "damage": 4,
+              "defeated": false,
+              "turn": 3,
+              "timestamp": "2026-02-03T11:29:34.861Z"
+            },
+            {
+              "sourceId": "player1",
+              "sourceName": "Aragorn",
+              "sourceType": "party",
+              "action": "attack",
+              "targetId": "enemy_spider_1770118174858_lq81cx",
+              "targetName": "Araña Gigante",
+              "targetType": "enemy",
+              "damage": 24,
+              "defeated": false,
+              "turn": 3,
+              "timestamp": "2026-02-03T11:29:34.861Z"
+            },
+            {
+              "sourceId": "player2",
+              "sourceName": "Gandalf",
+              "sourceType": "party",
+              "action": "attack",
+              "targetId": "enemy_spider_1770118174858_lq81cx",
+              "targetName": "Araña Gigante",
+              "targetType": "enemy",
+              "damage": 14,
+              "defeated": true,
+              "turn": 3,
+              "timestamp": "2026-02-03T11:29:34.861Z"
+            }
+          ],
+          "damageDealt": {
+            "party": 38,
+            "enemies": 4
+          },
+          "heals": {
+            "party": 0,
+            "enemies": 0
+          },
+          "enemiesDefeated": [
+            {
+              "enemyId": "enemy_spider_1770118174858_lq81cx",
+              "enemyName": "Araña Gigante",
+              "killedBy": "Gandalf",
+              "turn": 3
+            }
+          ],
+          "partyStatus": [
+            {
+              "id": "player1",
+              "name": "Aragorn",
+              "hp": 74,
+              "maxHp": 100
+            },
+            {
+              "id": "player2",
+              "name": "Gandalf",
+              "hp": 44,
+              "maxHp": 80
+            }
+          ],
+          "enemyStatus": []
+        }
+      ],
+      "outcome": "victory",
+      "xpEarned": 270,
+      "loot": [
+        {
+          "id": "item_1770118174862_577885",
+          "name": "Health Potion",
+          "originalName": "Health Potion",
+          "type": "consumable",
+          "rarity": "Común",
+          "rarityLevel": {
+            "name": "Común",
+            "weight": 75,
+            "color": "#FFFFFF",
+            "statMultiplier": 1
+          },
+          "stats": {
+            "heal": 22
+          },
+          "value": 32,
+          "prefix": null,
+          "suffix": null,
+          "color": "#FFFFFF",
+          "requirements": null
+        },
+        {
+          "id": "item_1770118174862_190832",
+          "name": "Health Potion",
+          "originalName": "Health Potion",
+          "type": "consumable",
+          "rarity": "Común",
+          "rarityLevel": {
+            "name": "Común",
+            "weight": 75,
+            "color": "#FFFFFF",
+            "statMultiplier": 1
+          },
+          "stats": {
+            "heal": 15
+          },
+          "value": 25,
+          "prefix": null,
+          "suffix": null,
+          "color": "#FFFFFF",
+          "requirements": null
+        }
+      ],
+      "lootValue": 1,
+      "partyMembers": [
+        {
+          "id": "player1",
+          "name": "Aragorn",
+          "hp": 80,
+          "maxHp": 100,
+          "level": 5
+        },
+        {
+          "id": "player2",
+          "name": "Gandalf",
+          "hp": 60,
+          "maxHp": 80,
+          "level": 6
+        }
+      ],
+      "enemies": [
+        {
+          "id": "enemy_spider_1770118174858_h4w10o",
+          "name": "Araña Gigante",
+          "hp": 27,
+          "maxHp": 27,
+          "level": 9,
+          "rarity": "normal"
+        },
+        {
+          "id": "enemy_spider_1770118174858_6gusqo",
+          "name": "Araña Gigante",
+          "hp": 27,
+          "maxHp": 27,
+          "level": 9,
+          "rarity": "normal"
+        },
+        {
+          "id": "enemy_spider_1770118174858_lq81cx",
+          "name": "Araña Gigante",
+          "hp": 27,
+          "maxHp": 27,
+          "level": 9,
+          "rarity": "normal"
+        }
+      ],
+      "enemiesDefeated": [
+        {
+          "enemyId": "enemy_spider_1770118174858_h4w10o",
+          "enemyName": "Araña Gigante",
+          "killedBy": "Gandalf",
+          "turn": 1
+        },
+        {
+          "enemyId": "enemy_spider_1770118174858_6gusqo",
+          "enemyName": "Araña Gigante",
+          "killedBy": "Gandalf",
+          "turn": 2
+        },
+        {
+          "enemyId": "enemy_spider_1770118174858_lq81cx",
+          "enemyName": "Araña Gigante",
+          "killedBy": "Gandalf",
+          "turn": 3
+        }
+      ],
+      "lootDetails": {
+        "table": "GOBLIN",
+        "tableName": "Goblin Loot",
+        "items": [
+          {
+            "id": "item_1770118174862_577885",
+            "name": "Health Potion",
+            "originalName": "Health Potion",
+            "type": "consumable",
+            "rarity": "Común",
+            "rarityLevel": {
+              "name": "Común",
+              "weight": 75,
+              "color": "#FFFFFF",
+              "statMultiplier": 1
+            },
+            "stats": {
+              "heal": 22
+            },
+            "value": 32,
+            "prefix": null,
+            "suffix": null,
+            "color": "#FFFFFF",
+            "requirements": null
+          },
+          {
+            "id": "item_1770118174862_190832",
+            "name": "Health Potion",
+            "originalName": "Health Potion",
+            "type": "consumable",
+            "rarity": "Común",
+            "rarityLevel": {
+              "name": "Común",
+              "weight": 75,
+              "color": "#FFFFFF",
+              "statMultiplier": 1
+            },
+            "stats": {
+              "heal": 15
+            },
+            "value": 25,
+            "prefix": null,
+            "suffix": null,
+            "color": "#FFFFFF",
+            "requirements": null
+          }
+        ],
+        "gold": 1,
+        "luckUsed": 2.5
+      },
+      "endTime": "2026-02-03T11:29:34.863Z",
+      "duration": 4,
+      "turnCount": 3
+    }
+  ],
+  "totalXp": 270,
+  "totalLoot": [
+    {
+      "id": "item_1770118174862_577885",
+      "name": "Health Potion",
+      "originalName": "Health Potion",
+      "type": "consumable",
+      "rarity": "Común",
+      "rarityLevel": {
+        "name": "Común",
+        "weight": 75,
+        "color": "#FFFFFF",
+        "statMultiplier": 1
+      },
+      "stats": {
+        "heal": 22
+      },
+      "value": 32,
+      "prefix": null,
+      "suffix": null,
+      "color": "#FFFFFF",
+      "requirements": null
+    },
+    {
+      "id": "item_1770118174862_190832",
+      "name": "Health Potion",
+      "originalName": "Health Potion",
+      "type": "consumable",
+      "rarity": "Común",
+      "rarityLevel": {
+        "name": "Común",
+        "weight": 75,
+        "color": "#FFFFFF",
+        "statMultiplier": 1
+      },
+      "stats": {
+        "heal": 15
+      },
+      "value": 25,
+      "prefix": null,
+      "suffix": null,
+      "color": "#FFFFFF",
+      "requirements": null
+    }
+  ],
+  "totalLootValue": 1,
+  "membersUpdated": [
+    {
+      "id": "player1",
+      "name": "Aragorn",
+      "level": 5,
+      "xp": 285,
+      "hp": 64,
+      "maxHp": 100
+    },
+    {
+      "id": "player2",
+      "name": "Gandalf",
+      "level": 6,
+      "xp": 435,
+      "hp": 36,
+      "maxHp": 80
+    }
+  ],
+  "startTime": "2026-02-03T11:29:34.857Z",
+  "goldDistributed": 0,
+  "itemsDistributed": {
+    "playerId": "player1",
+    "playerName": "Aragorn",
+    "items": [
+      "Health Potion",
+      "Health Potion"
+    ]
+  },
+  "endTime": "2026-02-03T11:29:34.875Z",
+  "duration": 18
+}

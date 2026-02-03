@@ -1,0 +1,72 @@
+{
+  "id": "player3",
+  "name": "Legolas",
+  "class": "archer",
+  "level": 5,
+  "xp": 305,
+  "maxXp": 2500,
+  "hp": 53,
+  "maxHp": 85,
+  "attack": 30,
+  "defense": 10,
+  "speed": 4,
+  "gold": 161,
+  "stats": {
+    "dexterity": 14,
+    "agility": 12,
+    "luck": 4
+  },
+  "inventory": [
+    {
+      "name": "Arrows",
+      "quantity": 50
+    },
+    {
+      "id": "item_1770118237183_945858",
+      "name": "Health Potion",
+      "originalName": "Health Potion",
+      "type": "consumable",
+      "rarity": "Común",
+      "rarityLevel": {
+        "name": "Común",
+        "weight": 75,
+        "color": "#FFFFFF",
+        "statMultiplier": 1
+      },
+      "stats": {
+        "heal": 22
+      },
+      "value": 32,
+      "prefix": null,
+      "suffix": null,
+      "color": "#FFFFFF",
+      "requirements": null
+    },
+    {
+      "id": "item_1770118237184_816847",
+      "name": "Sturdy Health Potion",
+      "originalName": "Health Potion",
+      "type": "consumable",
+      "rarity": "Común",
+      "rarityLevel": {
+        "name": "Común",
+        "weight": 75,
+        "color": "#FFFFFF",
+        "statMultiplier": 1
+      },
+      "stats": {
+        "heal": 16,
+        "defense": 3.5515123732978076
+      },
+      "value": 31,
+      "prefix": "Sturdy",
+      "suffix": null,
+      "color": "#FFFFFF",
+      "requirements": null
+    }
+  ],
+  "equipment": {
+    "weapon": "Bow",
+    "armor": "Leather"
+  }
+}

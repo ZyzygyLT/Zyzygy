@@ -1,0 +1,30 @@
+{
+  "id": "player2",
+  "name": "Gandalf",
+  "class": "mage",
+  "level": 6,
+  "xp": 435,
+  "maxXp": 3600,
+  "hp": 44,
+  "maxHp": 80,
+  "attack": 15,
+  "defense": 8,
+  "speed": 2,
+  "magic_power": 35,
+  "gold": 300,
+  "stats": {
+    "intelligence": 12,
+    "wisdom": 10,
+    "luck": 2
+  },
+  "inventory": [
+    {
+      "name": "Mana Potion",
+      "quantity": 2
+    }
+  ],
+  "equipment": {
+    "weapon": "Staff",
+    "armor": "Robe"
+  }
+}

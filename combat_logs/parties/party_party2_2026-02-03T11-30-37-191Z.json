@@ -1,0 +1,435 @@
+{
+  "partyId": "party2",
+  "partyName": "Los Exploradores",
+  "dungeon": "Bosque Encantado",
+  "status": "completed",
+  "battles": [
+    {
+      "battleId": "battle_1770118237159_encounter_1770118237182_2q70y7aw3",
+      "encounterId": "encounter_1770118237182_2q70y7aw3",
+      "encounterType": "normal",
+      "enemyType": "spider",
+      "enemyCount": 3,
+      "startTime": "2026-02-03T11:30:37.183Z",
+      "turns": [
+        {
+          "turn": 1,
+          "actions": [
+            {
+              "sourceId": "enemy_spider_1770118237182_lvu8gz",
+              "sourceName": "Araña Gigante",
+              "sourceType": "enemy",
+              "action": "attack",
+              "targetId": "player3",
+              "targetName": "Legolas",
+              "targetType": "party",
+              "damage": 3,
+              "defeated": false,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:30:37.183Z"
+            },
+            {
+              "sourceId": "enemy_spider_1770118237182_blzqj4",
+              "sourceName": "Araña Gigante",
+              "sourceType": "enemy",
+              "action": "attack",
+              "targetId": "player3",
+              "targetName": "Legolas",
+              "targetType": "party",
+              "damage": 3,
+              "defeated": false,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:30:37.183Z"
+            },
+            {
+              "sourceId": "enemy_spider_1770118237182_bkg0nf",
+              "sourceName": "Araña Gigante",
+              "sourceType": "enemy",
+              "action": "attack",
+              "targetId": "player3",
+              "targetName": "Legolas",
+              "targetType": "party",
+              "damage": 3,
+              "defeated": false,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:30:37.183Z"
+            },
+            {
+              "sourceId": "player3",
+              "sourceName": "Legolas",
+              "sourceType": "party",
+              "action": "attack",
+              "targetId": "enemy_spider_1770118237182_lvu8gz",
+              "targetName": "Araña Gigante",
+              "targetType": "enemy",
+              "damage": 29,
+              "defeated": true,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:30:37.183Z"
+            },
+            {
+              "sourceId": "player1",
+              "sourceName": "Aragorn",
+              "sourceType": "party",
+              "action": "attack",
+              "targetId": "enemy_spider_1770118237182_blzqj4",
+              "targetName": "Araña Gigante",
+              "targetType": "enemy",
+              "damage": 24,
+              "defeated": true,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:30:37.183Z"
+            }
+          ],
+          "damageDealt": {
+            "party": 53,
+            "enemies": 9
+          },
+          "heals": {
+            "party": 0,
+            "enemies": 0
+          },
+          "enemiesDefeated": [
+            {
+              "enemyId": "enemy_spider_1770118237182_lvu8gz",
+              "enemyName": "Araña Gigante",
+              "killedBy": "Legolas",
+              "turn": 1
+            },
+            {
+              "enemyId": "enemy_spider_1770118237182_blzqj4",
+              "enemyName": "Araña Gigante",
+              "killedBy": "Aragorn",
+              "turn": 1
+            }
+          ],
+          "partyStatus": [
+            {
+              "id": "player3",
+              "name": "Legolas",
+              "hp": 61,
+              "maxHp": 85
+            },
+            {
+              "id": "player1",
+              "name": "Aragorn",
+              "hp": 80,
+              "maxHp": 100
+            }
+          ],
+          "enemyStatus": [
+            {
+              "id": "enemy_spider_1770118237182_bkg0nf",
+              "name": "Araña Gigante",
+              "hp": 24,
+              "maxHp": 24
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "actions": [
+            {
+              "sourceId": "enemy_spider_1770118237182_bkg0nf",
+              "sourceName": "Araña Gigante",
+              "sourceType": "enemy",
+              "action": "attack",
+              "targetId": "player1",
+              "targetName": "Aragorn",
+              "targetType": "party",
+              "damage": 2,
+              "defeated": false,
+              "turn": 2,
+              "timestamp": "2026-02-03T11:30:37.183Z"
+            },
+            {
+              "sourceId": "player3",
+              "sourceName": "Legolas",
+              "sourceType": "party",
+              "action": "attack",
+              "targetId": "enemy_spider_1770118237182_bkg0nf",
+              "targetName": "Araña Gigante",
+              "targetType": "enemy",
+              "damage": 29,
+              "defeated": true,
+              "turn": 2,
+              "timestamp": "2026-02-03T11:30:37.183Z"
+            }
+          ],
+          "damageDealt": {
+            "party": 29,
+            "enemies": 2
+          },
+          "heals": {
+            "party": 0,
+            "enemies": 0
+          },
+          "enemiesDefeated": [
+            {
+              "enemyId": "enemy_spider_1770118237182_bkg0nf",
+              "enemyName": "Araña Gigante",
+              "killedBy": "Legolas",
+              "turn": 2
+            }
+          ],
+          "partyStatus": [
+            {
+              "id": "player3",
+              "name": "Legolas",
+              "hp": 61,
+              "maxHp": 85
+            },
+            {
+              "id": "player1",
+              "name": "Aragorn",
+              "hp": 78,
+              "maxHp": 100
+            }
+          ],
+          "enemyStatus": []
+        }
+      ],
+      "outcome": "victory",
+      "xpEarned": 210,
+      "loot": [
+        {
+          "id": "item_1770118237183_945858",
+          "name": "Health Potion",
+          "originalName": "Health Potion",
+          "type": "consumable",
+          "rarity": "Común",
+          "rarityLevel": {
+            "name": "Común",
+            "weight": 75,
+            "color": "#FFFFFF",
+            "statMultiplier": 1
+          },
+          "stats": {
+            "heal": 22
+          },
+          "value": 32,
+          "prefix": null,
+          "suffix": null,
+          "color": "#FFFFFF",
+          "requirements": null
+        },
+        {
+          "id": "item_1770118237184_816847",
+          "name": "Sturdy Health Potion",
+          "originalName": "Health Potion",
+          "type": "consumable",
+          "rarity": "Común",
+          "rarityLevel": {
+            "name": "Común",
+            "weight": 75,
+            "color": "#FFFFFF",
+            "statMultiplier": 1
+          },
+          "stats": {
+            "heal": 16,
+            "defense": 3.5515123732978076
+          },
+          "value": 31,
+          "prefix": "Sturdy",
+          "suffix": null,
+          "color": "#FFFFFF",
+          "requirements": null
+        }
+      ],
+      "lootValue": 3,
+      "partyMembers": [
+        {
+          "id": "player3",
+          "name": "Legolas",
+          "hp": 70,
+          "maxHp": 85,
+          "level": 5
+        },
+        {
+          "id": "player1",
+          "name": "Aragorn",
+          "hp": 80,
+          "maxHp": 100,
+          "level": 5
+        }
+      ],
+      "enemies": [
+        {
+          "id": "enemy_spider_1770118237182_lvu8gz",
+          "name": "Araña Gigante",
+          "hp": 24,
+          "maxHp": 24,
+          "level": 7,
+          "rarity": "normal"
+        },
+        {
+          "id": "enemy_spider_1770118237182_blzqj4",
+          "name": "Araña Gigante",
+          "hp": 24,
+          "maxHp": 24,
+          "level": 7,
+          "rarity": "normal"
+        },
+        {
+          "id": "enemy_spider_1770118237182_bkg0nf",
+          "name": "Araña Gigante",
+          "hp": 24,
+          "maxHp": 24,
+          "level": 7,
+          "rarity": "normal"
+        }
+      ],
+      "enemiesDefeated": [
+        {
+          "enemyId": "enemy_spider_1770118237182_lvu8gz",
+          "enemyName": "Araña Gigante",
+          "killedBy": "Legolas",
+          "turn": 1
+        },
+        {
+          "enemyId": "enemy_spider_1770118237182_blzqj4",
+          "enemyName": "Araña Gigante",
+          "killedBy": "Aragorn",
+          "turn": 1
+        },
+        {
+          "enemyId": "enemy_spider_1770118237182_bkg0nf",
+          "enemyName": "Araña Gigante",
+          "killedBy": "Legolas",
+          "turn": 2
+        }
+      ],
+      "lootDetails": {
+        "table": "GOBLIN",
+        "tableName": "Goblin Loot",
+        "items": [
+          {
+            "id": "item_1770118237183_945858",
+            "name": "Health Potion",
+            "originalName": "Health Potion",
+            "type": "consumable",
+            "rarity": "Común",
+            "rarityLevel": {
+              "name": "Común",
+              "weight": 75,
+              "color": "#FFFFFF",
+              "statMultiplier": 1
+            },
+            "stats": {
+              "heal": 22
+            },
+            "value": 32,
+            "prefix": null,
+            "suffix": null,
+            "color": "#FFFFFF",
+            "requirements": null
+          },
+          {
+            "id": "item_1770118237184_816847",
+            "name": "Sturdy Health Potion",
+            "originalName": "Health Potion",
+            "type": "consumable",
+            "rarity": "Común",
+            "rarityLevel": {
+              "name": "Común",
+              "weight": 75,
+              "color": "#FFFFFF",
+              "statMultiplier": 1
+            },
+            "stats": {
+              "heal": 16,
+              "defense": 3.5515123732978076
+            },
+            "value": 31,
+            "prefix": "Sturdy",
+            "suffix": null,
+            "color": "#FFFFFF",
+            "requirements": null
+          }
+        ],
+        "gold": 3,
+        "luckUsed": 3.5
+      },
+      "endTime": "2026-02-03T11:30:37.184Z",
+      "duration": 2,
+      "turnCount": 2
+    }
+  ],
+  "totalXp": 210,
+  "totalLoot": [
+    {
+      "id": "item_1770118237183_945858",
+      "name": "Health Potion",
+      "originalName": "Health Potion",
+      "type": "consumable",
+      "rarity": "Común",
+      "rarityLevel": {
+        "name": "Común",
+        "weight": 75,
+        "color": "#FFFFFF",
+        "statMultiplier": 1
+      },
+      "stats": {
+        "heal": 22
+      },
+      "value": 32,
+      "prefix": null,
+      "suffix": null,
+      "color": "#FFFFFF",
+      "requirements": null
+    },
+    {
+      "id": "item_1770118237184_816847",
+      "name": "Sturdy Health Potion",
+      "originalName": "Health Potion",
+      "type": "consumable",
+      "rarity": "Común",
+      "rarityLevel": {
+        "name": "Común",
+        "weight": 75,
+        "color": "#FFFFFF",
+        "statMultiplier": 1
+      },
+      "stats": {
+        "heal": 16,
+        "defense": 3.5515123732978076
+      },
+      "value": 31,
+      "prefix": "Sturdy",
+      "suffix": null,
+      "color": "#FFFFFF",
+      "requirements": null
+    }
+  ],
+  "totalLootValue": 3,
+  "membersUpdated": [
+    {
+      "id": "player3",
+      "name": "Legolas",
+      "level": 5,
+      "xp": 305,
+      "hp": 53,
+      "maxHp": 85
+    },
+    {
+      "id": "player1",
+      "name": "Aragorn",
+      "level": 5,
+      "xp": 255,
+      "hp": 68,
+      "maxHp": 100
+    }
+  ],
+  "startTime": "2026-02-03T11:30:37.182Z",
+  "goldDistributed": 2,
+  "itemsDistributed": {
+    "playerId": "player3",
+    "playerName": "Legolas",
+    "items": [
+      "Health Potion",
+      "Sturdy Health Potion"
+    ]
+  },
+  "endTime": "2026-02-03T11:30:37.191Z",
+  "duration": 9
+}

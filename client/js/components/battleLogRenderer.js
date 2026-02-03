@@ -1,0 +1,1 @@
+﻿// battleLogRenderer.js

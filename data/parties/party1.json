@@ -1,0 +1,619 @@
+{
+  "id": "party1",
+  "name": "Los Valientes",
+  "status": "completed",
+  "location": {
+    "type": "dungeon",
+    "name": "Cueva del Dragón",
+    "difficulty": 3,
+    "size": 10
+  },
+  "members": [
+    {
+      "id": "player1",
+      "name": "Aragorn",
+      "class": "warrior",
+      "level": 5,
+      "xp": 150,
+      "maxXp": 2500,
+      "hp": 80,
+      "maxHp": 100,
+      "attack": 25,
+      "defense": 15,
+      "speed": 3,
+      "gold": 100,
+      "stats": {
+        "strength": 10,
+        "vitality": 8,
+        "luck": 3
+      },
+      "inventory": [
+        {
+          "name": "Health Potion",
+          "quantity": 3
+        }
+      ],
+      "equipment": {
+        "weapon": "Longsword",
+        "armor": "Chainmail"
+      }
+    },
+    {
+      "id": "player2",
+      "name": "Gandalf",
+      "class": "mage",
+      "level": 6,
+      "xp": 300,
+      "maxXp": 3600,
+      "hp": 60,
+      "maxHp": 80,
+      "attack": 15,
+      "defense": 8,
+      "speed": 2,
+      "magic_power": 35,
+      "gold": 150,
+      "stats": {
+        "intelligence": 12,
+        "wisdom": 10,
+        "luck": 2
+      },
+      "inventory": [
+        {
+          "name": "Mana Potion",
+          "quantity": 2
+        }
+      ],
+      "equipment": {
+        "weapon": "Staff",
+        "armor": "Robe"
+      }
+    }
+  ],
+  "created": "2026-02-03T11:30:37.155Z",
+  "progress": {
+    "battlesCompleted": 1,
+    "totalXpEarned": 270,
+    "totalGoldEarned": 1
+  },
+  "endedAt": "2026-02-03T11:30:37.195Z",
+  "finalResult": {
+    "partyId": "party1",
+    "partyName": "Los Valientes",
+    "dungeon": "Cueva del Dragón",
+    "status": "completed",
+    "battles": [
+      {
+        "battleId": "battle_1770118237159_encounter_1770118237169_dp8225qdj",
+        "encounterId": "encounter_1770118237169_dp8225qdj",
+        "encounterType": "normal",
+        "enemyType": "goblin",
+        "enemyCount": 3,
+        "startTime": "2026-02-03T11:30:37.169Z",
+        "turns": [
+          {
+            "turn": 1,
+            "actions": [
+              {
+                "sourceId": "enemy_goblin_1770118237168_ykbayi",
+                "sourceName": "Goblin",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "player2",
+                "targetName": "Gandalf",
+                "targetType": "party",
+                "damage": 8,
+                "defeated": false,
+                "turn": 1,
+                "timestamp": "2026-02-03T11:30:37.170Z"
+              },
+              {
+                "sourceId": "enemy_goblin_1770118237169_c7sqfb",
+                "sourceName": "Goblin",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "player1",
+                "targetName": "Aragorn",
+                "targetType": "party",
+                "damage": 7,
+                "defeated": false,
+                "turn": 1,
+                "timestamp": "2026-02-03T11:30:37.170Z"
+              },
+              {
+                "sourceId": "enemy_goblin_1770118237169_ps9a9y",
+                "sourceName": "Goblin",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "player1",
+                "targetName": "Aragorn",
+                "targetType": "party",
+                "damage": 7,
+                "defeated": false,
+                "turn": 1,
+                "timestamp": "2026-02-03T11:30:37.170Z"
+              },
+              {
+                "sourceId": "player1",
+                "sourceName": "Aragorn",
+                "sourceType": "party",
+                "action": "attack",
+                "targetId": "enemy_goblin_1770118237168_ykbayi",
+                "targetName": "Goblin",
+                "targetType": "enemy",
+                "damage": 24,
+                "defeated": false,
+                "turn": 1,
+                "timestamp": "2026-02-03T11:30:37.170Z"
+              },
+              {
+                "sourceId": "player2",
+                "sourceName": "Gandalf",
+                "sourceType": "party",
+                "action": "attack",
+                "targetId": "enemy_goblin_1770118237168_ykbayi",
+                "targetName": "Goblin",
+                "targetType": "enemy",
+                "damage": 14,
+                "defeated": true,
+                "turn": 1,
+                "timestamp": "2026-02-03T11:30:37.170Z"
+              }
+            ],
+            "damageDealt": {
+              "party": 38,
+              "enemies": 22
+            },
+            "heals": {
+              "party": 0,
+              "enemies": 0
+            },
+            "enemiesDefeated": [
+              {
+                "enemyId": "enemy_goblin_1770118237168_ykbayi",
+                "enemyName": "Goblin",
+                "killedBy": "Gandalf",
+                "turn": 1
+              }
+            ],
+            "partyStatus": [
+              {
+                "id": "player1",
+                "name": "Aragorn",
+                "hp": 66,
+                "maxHp": 100
+              },
+              {
+                "id": "player2",
+                "name": "Gandalf",
+                "hp": 52,
+                "maxHp": 80
+              }
+            ],
+            "enemyStatus": [
+              {
+                "id": "enemy_goblin_1770118237169_c7sqfb",
+                "name": "Goblin",
+                "hp": 36,
+                "maxHp": 36
+              },
+              {
+                "id": "enemy_goblin_1770118237169_ps9a9y",
+                "name": "Goblin",
+                "hp": 36,
+                "maxHp": 36
+              }
+            ]
+          },
+          {
+            "turn": 2,
+            "actions": [
+              {
+                "sourceId": "enemy_goblin_1770118237169_c7sqfb",
+                "sourceName": "Goblin",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "player1",
+                "targetName": "Aragorn",
+                "targetType": "party",
+                "damage": 7,
+                "defeated": false,
+                "turn": 2,
+                "timestamp": "2026-02-03T11:30:37.170Z"
+              },
+              {
+                "sourceId": "enemy_goblin_1770118237169_ps9a9y",
+                "sourceName": "Goblin",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "player1",
+                "targetName": "Aragorn",
+                "targetType": "party",
+                "damage": 7,
+                "defeated": false,
+                "turn": 2,
+                "timestamp": "2026-02-03T11:30:37.170Z"
+              },
+              {
+                "sourceId": "player1",
+                "sourceName": "Aragorn",
+                "sourceType": "party",
+                "action": "attack",
+                "targetId": "enemy_goblin_1770118237169_c7sqfb",
+                "targetName": "Goblin",
+                "targetType": "enemy",
+                "damage": 24,
+                "defeated": false,
+                "turn": 2,
+                "timestamp": "2026-02-03T11:30:37.170Z"
+              },
+              {
+                "sourceId": "player2",
+                "sourceName": "Gandalf",
+                "sourceType": "party",
+                "action": "attack",
+                "targetId": "enemy_goblin_1770118237169_c7sqfb",
+                "targetName": "Goblin",
+                "targetType": "enemy",
+                "damage": 14,
+                "defeated": true,
+                "turn": 2,
+                "timestamp": "2026-02-03T11:30:37.170Z"
+              }
+            ],
+            "damageDealt": {
+              "party": 38,
+              "enemies": 14
+            },
+            "heals": {
+              "party": 0,
+              "enemies": 0
+            },
+            "enemiesDefeated": [
+              {
+                "enemyId": "enemy_goblin_1770118237169_c7sqfb",
+                "enemyName": "Goblin",
+                "killedBy": "Gandalf",
+                "turn": 2
+              }
+            ],
+            "partyStatus": [
+              {
+                "id": "player1",
+                "name": "Aragorn",
+                "hp": 52,
+                "maxHp": 100
+              },
+              {
+                "id": "player2",
+                "name": "Gandalf",
+                "hp": 52,
+                "maxHp": 80
+              }
+            ],
+            "enemyStatus": [
+              {
+                "id": "enemy_goblin_1770118237169_ps9a9y",
+                "name": "Goblin",
+                "hp": 36,
+                "maxHp": 36
+              }
+            ]
+          },
+          {
+            "turn": 3,
+            "actions": [
+              {
+                "sourceId": "enemy_goblin_1770118237169_ps9a9y",
+                "sourceName": "Goblin",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "player1",
+                "targetName": "Aragorn",
+                "targetType": "party",
+                "damage": 7,
+                "defeated": false,
+                "turn": 3,
+                "timestamp": "2026-02-03T11:30:37.170Z"
+              },
+              {
+                "sourceId": "player1",
+                "sourceName": "Aragorn",
+                "sourceType": "party",
+                "action": "attack",
+                "targetId": "enemy_goblin_1770118237169_ps9a9y",
+                "targetName": "Goblin",
+                "targetType": "enemy",
+                "damage": 24,
+                "defeated": false,
+                "turn": 3,
+                "timestamp": "2026-02-03T11:30:37.170Z"
+              },
+              {
+                "sourceId": "player2",
+                "sourceName": "Gandalf",
+                "sourceType": "party",
+                "action": "attack",
+                "targetId": "enemy_goblin_1770118237169_ps9a9y",
+                "targetName": "Goblin",
+                "targetType": "enemy",
+                "damage": 14,
+                "defeated": true,
+                "turn": 3,
+                "timestamp": "2026-02-03T11:30:37.170Z"
+              }
+            ],
+            "damageDealt": {
+              "party": 38,
+              "enemies": 7
+            },
+            "heals": {
+              "party": 0,
+              "enemies": 0
+            },
+            "enemiesDefeated": [
+              {
+                "enemyId": "enemy_goblin_1770118237169_ps9a9y",
+                "enemyName": "Goblin",
+                "killedBy": "Gandalf",
+                "turn": 3
+              }
+            ],
+            "partyStatus": [
+              {
+                "id": "player1",
+                "name": "Aragorn",
+                "hp": 45,
+                "maxHp": 100
+              },
+              {
+                "id": "player2",
+                "name": "Gandalf",
+                "hp": 52,
+                "maxHp": 80
+              }
+            ],
+            "enemyStatus": []
+          }
+        ],
+        "outcome": "victory",
+        "xpEarned": 270,
+        "loot": [
+          {
+            "id": "item_1770118237172_79681",
+            "name": "Health Potion",
+            "originalName": "Health Potion",
+            "type": "consumable",
+            "rarity": "Poco Común",
+            "rarityLevel": {
+              "name": "Poco Común",
+              "weight": 15,
+              "color": "#1EFF00",
+              "statMultiplier": 1.3
+            },
+            "stats": {
+              "heal": 22
+            },
+            "value": 36,
+            "prefix": null,
+            "suffix": null,
+            "color": "#1EFF00",
+            "requirements": null
+          },
+          {
+            "id": "item_1770118237172_737071",
+            "name": "Goblin Ear",
+            "originalName": "Goblin Ear",
+            "type": "material",
+            "rarity": "Común",
+            "rarityLevel": {
+              "name": "Común",
+              "weight": 75,
+              "color": "#FFFFFF",
+              "statMultiplier": 1
+            },
+            "stats": {
+              "value": 2
+            },
+            "value": 11,
+            "prefix": null,
+            "suffix": null,
+            "color": "#FFFFFF",
+            "requirements": null
+          }
+        ],
+        "lootValue": 1,
+        "partyMembers": [
+          {
+            "id": "player1",
+            "name": "Aragorn",
+            "hp": 80,
+            "maxHp": 100,
+            "level": 5
+          },
+          {
+            "id": "player2",
+            "name": "Gandalf",
+            "hp": 60,
+            "maxHp": 80,
+            "level": 6
+          }
+        ],
+        "enemies": [
+          {
+            "id": "enemy_goblin_1770118237168_ykbayi",
+            "name": "Goblin",
+            "hp": 36,
+            "maxHp": 36,
+            "level": 9,
+            "rarity": "normal"
+          },
+          {
+            "id": "enemy_goblin_1770118237169_c7sqfb",
+            "name": "Goblin",
+            "hp": 36,
+            "maxHp": 36,
+            "level": 9,
+            "rarity": "normal"
+          },
+          {
+            "id": "enemy_goblin_1770118237169_ps9a9y",
+            "name": "Goblin",
+            "hp": 36,
+            "maxHp": 36,
+            "level": 9,
+            "rarity": "normal"
+          }
+        ],
+        "enemiesDefeated": [
+          {
+            "enemyId": "enemy_goblin_1770118237168_ykbayi",
+            "enemyName": "Goblin",
+            "killedBy": "Gandalf",
+            "turn": 1
+          },
+          {
+            "enemyId": "enemy_goblin_1770118237169_c7sqfb",
+            "enemyName": "Goblin",
+            "killedBy": "Gandalf",
+            "turn": 2
+          },
+          {
+            "enemyId": "enemy_goblin_1770118237169_ps9a9y",
+            "enemyName": "Goblin",
+            "killedBy": "Gandalf",
+            "turn": 3
+          }
+        ],
+        "lootDetails": {
+          "table": "GOBLIN",
+          "tableName": "Goblin Loot",
+          "items": [
+            {
+              "id": "item_1770118237172_79681",
+              "name": "Health Potion",
+              "originalName": "Health Potion",
+              "type": "consumable",
+              "rarity": "Poco Común",
+              "rarityLevel": {
+                "name": "Poco Común",
+                "weight": 15,
+                "color": "#1EFF00",
+                "statMultiplier": 1.3
+              },
+              "stats": {
+                "heal": 22
+              },
+              "value": 36,
+              "prefix": null,
+              "suffix": null,
+              "color": "#1EFF00",
+              "requirements": null
+            },
+            {
+              "id": "item_1770118237172_737071",
+              "name": "Goblin Ear",
+              "originalName": "Goblin Ear",
+              "type": "material",
+              "rarity": "Común",
+              "rarityLevel": {
+                "name": "Común",
+                "weight": 75,
+                "color": "#FFFFFF",
+                "statMultiplier": 1
+              },
+              "stats": {
+                "value": 2
+              },
+              "value": 11,
+              "prefix": null,
+              "suffix": null,
+              "color": "#FFFFFF",
+              "requirements": null
+            }
+          ],
+          "gold": 1,
+          "luckUsed": 2.5
+        },
+        "endTime": "2026-02-03T11:30:37.172Z",
+        "duration": 3,
+        "turnCount": 3
+      }
+    ],
+    "totalXp": 270,
+    "totalLoot": [
+      {
+        "id": "item_1770118237172_79681",
+        "name": "Health Potion",
+        "originalName": "Health Potion",
+        "type": "consumable",
+        "rarity": "Poco Común",
+        "rarityLevel": {
+          "name": "Poco Común",
+          "weight": 15,
+          "color": "#1EFF00",
+          "statMultiplier": 1.3
+        },
+        "stats": {
+          "heal": 22
+        },
+        "value": 36,
+        "prefix": null,
+        "suffix": null,
+        "color": "#1EFF00",
+        "requirements": null
+      },
+      {
+        "id": "item_1770118237172_737071",
+        "name": "Goblin Ear",
+        "originalName": "Goblin Ear",
+        "type": "material",
+        "rarity": "Común",
+        "rarityLevel": {
+          "name": "Común",
+          "weight": 75,
+          "color": "#FFFFFF",
+          "statMultiplier": 1
+        },
+        "stats": {
+          "value": 2
+        },
+        "value": 11,
+        "prefix": null,
+        "suffix": null,
+        "color": "#FFFFFF",
+        "requirements": null
+      }
+    ],
+    "totalLootValue": 1,
+    "membersUpdated": [
+      {
+        "id": "player1",
+        "name": "Aragorn",
+        "level": 5,
+        "xp": 285,
+        "hp": 35,
+        "maxHp": 100
+      },
+      {
+        "id": "player2",
+        "name": "Gandalf",
+        "level": 6,
+        "xp": 435,
+        "hp": 44,
+        "maxHp": 80
+      }
+    ],
+    "startTime": "2026-02-03T11:30:37.168Z",
+    "goldDistributed": 0,
+    "itemsDistributed": {
+      "playerId": "player1",
+      "playerName": "Aragorn",
+      "items": [
+        "Health Potion",
+        "Goblin Ear"
+      ]
+    },
+    "endTime": "2026-02-03T11:30:37.180Z",
+    "duration": 12
+  }
+}

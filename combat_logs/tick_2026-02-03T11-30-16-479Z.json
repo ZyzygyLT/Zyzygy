@@ -1,0 +1,570 @@
+{
+  "tickId": 1770118216468,
+  "timestamp": "2026-02-03T11:30:16.471Z",
+  "totalParties": 2,
+  "partiesProcessed": 2,
+  "partiesCompleted": 0,
+  "totalBattles": 2,
+  "totalXpDistributed": 0,
+  "totalLootDistributed": 0,
+  "partyResults": [
+    {
+      "partyId": "sim_party1",
+      "partyName": "Sim Party Alpha",
+      "dungeon": "Sim Dungeon A",
+      "status": "defeated",
+      "battles": [
+        {
+          "battleId": "battle_1770118216468_encounter_1770118216471_60urhfbr8",
+          "encounterId": "encounter_1770118216471_60urhfbr8",
+          "encounterType": "normal",
+          "enemyType": "wolf",
+          "enemyCount": 4,
+          "startTime": "2026-02-03T11:30:16.471Z",
+          "turns": [
+            {
+              "turn": 1,
+              "actions": [
+                {
+                  "sourceId": "enemy_wolf_1770118216471_kwy4xy",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 6,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:30:16.472Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118216471_8xk7bu",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 6,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:30:16.472Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118216471_stepag",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 6,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:30:16.472Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118216471_e388ck",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 6,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:30:16.472Z"
+                },
+                {
+                  "sourceId": "sim_player1",
+                  "sourceName": "Sim Warrior",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_wolf_1770118216471_kwy4xy",
+                  "targetName": "Lobo Salvaje",
+                  "targetType": "enemy",
+                  "damage": 14,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:30:16.472Z"
+                }
+              ],
+              "damageDealt": {
+                "party": 14,
+                "enemies": 24
+              },
+              "heals": {
+                "party": 0,
+                "enemies": 0
+              },
+              "enemiesDefeated": [],
+              "partyStatus": [
+                {
+                  "id": "sim_player1",
+                  "name": "Sim Warrior",
+                  "hp": 36,
+                  "maxHp": 70
+                }
+              ],
+              "enemyStatus": [
+                {
+                  "id": "enemy_wolf_1770118216471_kwy4xy",
+                  "name": "Lobo Salvaje",
+                  "hp": 7,
+                  "maxHp": 21
+                },
+                {
+                  "id": "enemy_wolf_1770118216471_8xk7bu",
+                  "name": "Lobo Salvaje",
+                  "hp": 21,
+                  "maxHp": 21
+                },
+                {
+                  "id": "enemy_wolf_1770118216471_stepag",
+                  "name": "Lobo Salvaje",
+                  "hp": 21,
+                  "maxHp": 21
+                },
+                {
+                  "id": "enemy_wolf_1770118216471_e388ck",
+                  "name": "Lobo Salvaje",
+                  "hp": 21,
+                  "maxHp": 21
+                }
+              ]
+            },
+            {
+              "turn": 2,
+              "actions": [
+                {
+                  "sourceId": "enemy_wolf_1770118216471_kwy4xy",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 6,
+                  "defeated": false,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:30:16.472Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118216471_8xk7bu",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 6,
+                  "defeated": false,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:30:16.472Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118216471_stepag",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 6,
+                  "defeated": false,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:30:16.472Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118216471_e388ck",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 6,
+                  "defeated": false,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:30:16.472Z"
+                },
+                {
+                  "sourceId": "sim_player1",
+                  "sourceName": "Sim Warrior",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_wolf_1770118216471_kwy4xy",
+                  "targetName": "Lobo Salvaje",
+                  "targetType": "enemy",
+                  "damage": 14,
+                  "defeated": true,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:30:16.472Z"
+                }
+              ],
+              "damageDealt": {
+                "party": 14,
+                "enemies": 24
+              },
+              "heals": {
+                "party": 0,
+                "enemies": 0
+              },
+              "enemiesDefeated": [
+                {
+                  "enemyId": "enemy_wolf_1770118216471_kwy4xy",
+                  "enemyName": "Lobo Salvaje",
+                  "killedBy": "Sim Warrior",
+                  "turn": 2
+                }
+              ],
+              "partyStatus": [
+                {
+                  "id": "sim_player1",
+                  "name": "Sim Warrior",
+                  "hp": 12,
+                  "maxHp": 70
+                }
+              ],
+              "enemyStatus": [
+                {
+                  "id": "enemy_wolf_1770118216471_8xk7bu",
+                  "name": "Lobo Salvaje",
+                  "hp": 21,
+                  "maxHp": 21
+                },
+                {
+                  "id": "enemy_wolf_1770118216471_stepag",
+                  "name": "Lobo Salvaje",
+                  "hp": 21,
+                  "maxHp": 21
+                },
+                {
+                  "id": "enemy_wolf_1770118216471_e388ck",
+                  "name": "Lobo Salvaje",
+                  "hp": 21,
+                  "maxHp": 21
+                }
+              ]
+            },
+            {
+              "turn": 3,
+              "actions": [
+                {
+                  "sourceId": "enemy_wolf_1770118216471_8xk7bu",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 6,
+                  "defeated": false,
+                  "turn": 3,
+                  "timestamp": "2026-02-03T11:30:16.472Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118216471_stepag",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 6,
+                  "defeated": true,
+                  "turn": 3,
+                  "timestamp": "2026-02-03T11:30:16.472Z"
+                },
+                {
+                  "sourceId": "sim_player1",
+                  "sourceName": "Sim Warrior",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_wolf_1770118216471_8xk7bu",
+                  "targetName": "Lobo Salvaje",
+                  "targetType": "enemy",
+                  "damage": 14,
+                  "defeated": false,
+                  "turn": 3,
+                  "timestamp": "2026-02-03T11:30:16.472Z"
+                }
+              ],
+              "damageDealt": {
+                "party": 14,
+                "enemies": 12
+              },
+              "heals": {
+                "party": 0,
+                "enemies": 0
+              },
+              "enemiesDefeated": [],
+              "partyStatus": [
+                {
+                  "id": "sim_player1",
+                  "name": "Sim Warrior",
+                  "hp": 0,
+                  "maxHp": 70
+                }
+              ],
+              "enemyStatus": [
+                {
+                  "id": "enemy_wolf_1770118216471_8xk7bu",
+                  "name": "Lobo Salvaje",
+                  "hp": 7,
+                  "maxHp": 21
+                },
+                {
+                  "id": "enemy_wolf_1770118216471_stepag",
+                  "name": "Lobo Salvaje",
+                  "hp": 21,
+                  "maxHp": 21
+                },
+                {
+                  "id": "enemy_wolf_1770118216471_e388ck",
+                  "name": "Lobo Salvaje",
+                  "hp": 21,
+                  "maxHp": 21
+                }
+              ]
+            }
+          ],
+          "outcome": "defeat",
+          "xpEarned": 0,
+          "loot": [],
+          "lootValue": 0,
+          "partyMembers": [
+            {
+              "id": "sim_player1",
+              "name": "Sim Warrior",
+              "hp": 60,
+              "maxHp": 70,
+              "level": 3
+            }
+          ],
+          "enemies": [
+            {
+              "id": "enemy_wolf_1770118216471_kwy4xy",
+              "name": "Lobo Salvaje",
+              "hp": 21,
+              "maxHp": 21,
+              "level": 3,
+              "rarity": "normal"
+            },
+            {
+              "id": "enemy_wolf_1770118216471_8xk7bu",
+              "name": "Lobo Salvaje",
+              "hp": 21,
+              "maxHp": 21,
+              "level": 3,
+              "rarity": "normal"
+            },
+            {
+              "id": "enemy_wolf_1770118216471_stepag",
+              "name": "Lobo Salvaje",
+              "hp": 21,
+              "maxHp": 21,
+              "level": 3,
+              "rarity": "normal"
+            },
+            {
+              "id": "enemy_wolf_1770118216471_e388ck",
+              "name": "Lobo Salvaje",
+              "hp": 21,
+              "maxHp": 21,
+              "level": 3,
+              "rarity": "normal"
+            }
+          ],
+          "enemiesDefeated": [
+            {
+              "enemyId": "enemy_wolf_1770118216471_kwy4xy",
+              "enemyName": "Lobo Salvaje",
+              "killedBy": "Sim Warrior",
+              "turn": 2
+            }
+          ],
+          "defeatReason": "All party members defeated",
+          "endTime": "2026-02-03T11:30:16.472Z",
+          "duration": 1,
+          "turnCount": 3
+        }
+      ],
+      "totalXp": 0,
+      "totalLoot": [],
+      "totalLootValue": 0,
+      "membersUpdated": [],
+      "startTime": "2026-02-03T11:30:16.471Z",
+      "defeatReason": "Party defeated in battle",
+      "endTime": "2026-02-03T11:30:16.473Z",
+      "duration": 2
+    },
+    {
+      "partyId": "sim_party2",
+      "partyName": "Sim Party Beta",
+      "dungeon": "Sim Dungeon B",
+      "status": "defeated",
+      "battles": [
+        {
+          "battleId": "battle_1770118216468_encounter_1770118216475_2cordi76k",
+          "encounterId": "encounter_1770118216475_2cordi76k",
+          "encounterType": "elite",
+          "enemyType": "ogre",
+          "enemyCount": 2,
+          "startTime": "2026-02-03T11:30:16.476Z",
+          "turns": [
+            {
+              "turn": 1,
+              "actions": [
+                {
+                  "sourceId": "enemy_ogre_1770118216475_krjh2q",
+                  "sourceName": "Ogro Élite",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player3",
+                  "targetName": "Sim Healer",
+                  "targetType": "party",
+                  "damage": 74,
+                  "defeated": true,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:30:16.476Z"
+                },
+                {
+                  "sourceId": "enemy_ogre_1770118216475_fntvla",
+                  "sourceName": "Ogro Élite",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player2",
+                  "targetName": "Sim Mage",
+                  "targetType": "party",
+                  "damage": 74,
+                  "defeated": true,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:30:16.476Z"
+                },
+                {
+                  "sourceId": "sim_player2",
+                  "sourceName": "Sim Mage",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_ogre_1770118216475_krjh2q",
+                  "targetName": "Ogro Élite",
+                  "targetType": "enemy",
+                  "damage": 7,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:30:16.476Z"
+                },
+                {
+                  "sourceId": "sim_player3",
+                  "sourceName": "Sim Healer",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_ogre_1770118216475_krjh2q",
+                  "targetName": "Ogro Élite",
+                  "targetType": "enemy",
+                  "damage": 5,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:30:16.476Z"
+                }
+              ],
+              "damageDealt": {
+                "party": 12,
+                "enemies": 148
+              },
+              "heals": {
+                "party": 0,
+                "enemies": 0
+              },
+              "enemiesDefeated": [],
+              "partyStatus": [
+                {
+                  "id": "sim_player2",
+                  "name": "Sim Mage",
+                  "hp": 0,
+                  "maxHp": 65
+                },
+                {
+                  "id": "sim_player3",
+                  "name": "Sim Healer",
+                  "hp": 0,
+                  "maxHp": 65
+                }
+              ],
+              "enemyStatus": [
+                {
+                  "id": "enemy_ogre_1770118216475_krjh2q",
+                  "name": "Ogro Élite",
+                  "hp": 290,
+                  "maxHp": 302
+                },
+                {
+                  "id": "enemy_ogre_1770118216475_fntvla",
+                  "name": "Ogro Élite",
+                  "hp": 302,
+                  "maxHp": 302
+                }
+              ]
+            }
+          ],
+          "outcome": "defeat",
+          "xpEarned": 0,
+          "loot": [],
+          "lootValue": 0,
+          "partyMembers": [
+            {
+              "id": "sim_player2",
+              "name": "Sim Mage",
+              "hp": 50,
+              "maxHp": 65,
+              "level": 7
+            },
+            {
+              "id": "sim_player3",
+              "name": "Sim Healer",
+              "hp": 55,
+              "maxHp": 65,
+              "level": 5
+            }
+          ],
+          "enemies": [
+            {
+              "id": "enemy_ogre_1770118216475_krjh2q",
+              "name": "Ogro Élite",
+              "hp": 302,
+              "maxHp": 302,
+              "level": 12,
+              "rarity": "elite"
+            },
+            {
+              "id": "enemy_ogre_1770118216475_fntvla",
+              "name": "Ogro Élite",
+              "hp": 302,
+              "maxHp": 302,
+              "level": 12,
+              "rarity": "elite"
+            }
+          ],
+          "defeatReason": "All party members defeated",
+          "endTime": "2026-02-03T11:30:16.476Z",
+          "duration": 1,
+          "turnCount": 1
+        }
+      ],
+      "totalXp": 0,
+      "totalLoot": [],
+      "totalLootValue": 0,
+      "membersUpdated": [],
+      "startTime": "2026-02-03T11:30:16.475Z",
+      "defeatReason": "Party defeated in battle",
+      "endTime": "2026-02-03T11:30:16.478Z",
+      "duration": 3
+    }
+  ],
+  "errors": [],
+  "duration": 11,
+  "status": "completed"
+}

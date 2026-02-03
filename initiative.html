@@ -1,0 +1,58 @@
+<!doctype html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Visualizador de Iniciativa</title>
+        <style>
+            body{font-family:Inter,system-ui,sans-serif;background:#0f1720;color:#dbeafe;padding:20px}
+            .container{max-width:1200px;margin:0 auto}
+            .panel{background:#071022;padding:16px;border-radius:8px;margin-bottom:14px;border-left:4px solid #7dd3fc}
+            pre{background:#071022;padding:12px;border-radius:6px;overflow:auto;font-family:monospace;font-size:12px}
+            h1{margin-top:0;color:#fbbf24}
+            h3{color:#7dd3fc;margin-top:0}
+            .info{background:#1e293b;padding:10px;border-radius:4px;margin:10px 0;font-size:13px}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <h1>⚔️ Visualizador de Iniciativa</h1>
+        <div class="panel">
+            <h3>Comparativa de Iniciativa Promedio (1000 simulaciones por combatiente)</h3>
+            <?xml version="1.0" encoding="UTF-8"?><svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="#071022"/><text x="60" y="25" fill="#dbeafe" font-family="sans-serif" font-size="16" font-weight="bold">Initiative Distribution (AGI×2 + PER + 2d10)</text><rect x="60" y="119" width="162" height="221" fill="#fbbf24"/><text x="141" y="360" fill="#cbd5e1" font-size="12" font-family="sans-serif" text-anchor="middle" font-weight="bold">Guerrero</text><text x="141" y="111" fill="#dbeafe" font-size="11" font-family="sans-serif" text-anchor="middle">44.8</text><rect x="230" y="60" width="162" height="280" fill="#ec4899"/><text x="311" y="360" fill="#cbd5e1" font-size="12" font-family="sans-serif" text-anchor="middle" font-weight="bold">Ladrón</text><text x="311" y="52" fill="#dbeafe" font-size="11" font-family="sans-serif" text-anchor="middle">56.9</text><rect x="400" y="133" width="162" height="207" fill="#a78bfa"/><text x="481" y="360" fill="#cbd5e1" font-size="12" font-family="sans-serif" text-anchor="middle" font-weight="bold">Mago</text><text x="481" y="125" fill="#dbeafe" font-size="11" font-family="sans-serif" text-anchor="middle">42.0</text><rect x="570" y="129" width="162" height="211" fill="#34d399"/><text x="651" y="360" fill="#cbd5e1" font-size="12" font-family="sans-serif" text-anchor="middle" font-weight="bold">Paladín</text><text x="651" y="121" fill="#dbeafe" font-size="11" font-family="sans-serif" text-anchor="middle">42.8</text><text x="45" y="64" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="end">57</text><line x1="50" y1="60" x2="740" y2="60" stroke="#1e293b" stroke-width="0.5"/><text x="45" y="120" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="end">46</text><line x1="50" y1="116" x2="740" y2="116" stroke="#1e293b" stroke-width="0.5"/><text x="45" y="176" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="end">34</text><line x1="50" y1="172" x2="740" y2="172" stroke="#1e293b" stroke-width="0.5"/><text x="45" y="232" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="end">23</text><line x1="50" y1="228" x2="740" y2="228" stroke="#1e293b" stroke-width="0.5"/><text x="45" y="288" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="end">11</text><line x1="50" y1="284" x2="740" y2="284" stroke="#1e293b" stroke-width="0.5"/><text x="45" y="344" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="end">0</text><line x1="50" y1="340" x2="740" y2="340" stroke="#1e293b" stroke-width="0.5"/><line x1="60" y1="60" x2="60" y2="340" stroke="#64748b" stroke-width="2"/><line x1="60" y1="340" x2="740" y2="340" stroke="#64748b" stroke-width="2"/></svg>
+            <div class="info">
+                <strong>Fórmula:</strong> Iniciativa = (AGI × 2) + PER + 2d10
+                <br><strong>Distribución 2d10:</strong> Media ≈ 11, Desv. Est. ≈ 4.06
+            </div>
+        </div>
+        <div class="panel">
+            <h3>Reporte de Análisis</h3>
+            <pre>══════════════════════════════════════════════════════════════════════
+ANÁLISIS DE INICIATIVA - SISTEMA D&D 5e
+══════════════════════════════════════════════════════════════════════
+
+🎲 FÓRMULA: (AGI × 2) + PER + 2d10
+──────────────────────────────────────────────────────────────────────
+
+COMBATIENTES:
+──────────────────────────────────────────────────────────────────────
+Nombre        | AGI | PER | Base  | Promedio (1000 tiradas)
+──────────────┼─────┼─────┼───────┼────────────────────────
+Guerrero      |  12 |  10 |    34 |      45.10
+Ladrón        |  16 |  14 |    46 |      56.99
+Mago          |   8 |  15 |    31 |      41.98
+Paladín       |  10 |  12 |    32 |      43.00
+
+══════════════════════════════════════════════════════════════════════
+EXPLICACIÓN:
+──────────────────────────────────────────────────────────────────────
+• AGI (Agilidad): determina la velocidad base del combatiente
+• PER (Percepción): añade reactividad adicional
+• 2d10: dado de probabilidad gaussiana para variación cada ronda
+• Base: (AGI × 2) + PER — iniciativa mínima sin dados
+• Promedio: media de la distribución incluyendo 2d10
+══════════════════════════════════════════════════════════════════════
+</pre>
+        </div>
+        </div>
+    </body>
+    </html>

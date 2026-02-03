@@ -1,0 +1,447 @@
+{
+  "battleId": "battle_1770118174915_encounter_1770118174933_wf87hrecc",
+  "encounterId": "encounter_1770118174933_wf87hrecc",
+  "encounterType": "normal",
+  "enemyType": "wolf",
+  "enemyCount": 4,
+  "startTime": "2026-02-03T11:29:34.936Z",
+  "turns": [
+    {
+      "turn": 1,
+      "actions": [
+        {
+          "sourceId": "enemy_wolf_1770118174933_p7k9lh",
+          "sourceName": "Lobo Salvaje",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player2",
+          "targetName": "Sim Mage",
+          "targetType": "party",
+          "damage": 11,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        },
+        {
+          "sourceId": "enemy_wolf_1770118174933_j19lsk",
+          "sourceName": "Lobo Salvaje",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player2",
+          "targetName": "Sim Mage",
+          "targetType": "party",
+          "damage": 11,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        },
+        {
+          "sourceId": "enemy_wolf_1770118174933_1eby0p",
+          "sourceName": "Lobo Salvaje",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player2",
+          "targetName": "Sim Mage",
+          "targetType": "party",
+          "damage": 11,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        },
+        {
+          "sourceId": "enemy_wolf_1770118174933_g1qjai",
+          "sourceName": "Lobo Salvaje",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player2",
+          "targetName": "Sim Mage",
+          "targetType": "party",
+          "damage": 11,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        },
+        {
+          "sourceId": "sim_player2",
+          "sourceName": "Sim Mage",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_wolf_1770118174933_p7k9lh",
+          "targetName": "Lobo Salvaje",
+          "targetType": "enemy",
+          "damage": 9,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        },
+        {
+          "sourceId": "sim_player3",
+          "sourceName": "Sim Healer",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_wolf_1770118174933_p7k9lh",
+          "targetName": "Lobo Salvaje",
+          "targetType": "enemy",
+          "damage": 7,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        }
+      ],
+      "damageDealt": {
+        "party": 16,
+        "enemies": 44
+      },
+      "heals": {
+        "party": 0,
+        "enemies": 0
+      },
+      "enemiesDefeated": [],
+      "partyStatus": [
+        {
+          "id": "sim_player2",
+          "name": "Sim Mage",
+          "hp": 6,
+          "maxHp": 65
+        },
+        {
+          "id": "sim_player3",
+          "name": "Sim Healer",
+          "hp": 55,
+          "maxHp": 65
+        }
+      ],
+      "enemyStatus": [
+        {
+          "id": "enemy_wolf_1770118174933_p7k9lh",
+          "name": "Lobo Salvaje",
+          "hp": 21,
+          "maxHp": 37
+        },
+        {
+          "id": "enemy_wolf_1770118174933_j19lsk",
+          "name": "Lobo Salvaje",
+          "hp": 37,
+          "maxHp": 37
+        },
+        {
+          "id": "enemy_wolf_1770118174933_1eby0p",
+          "name": "Lobo Salvaje",
+          "hp": 37,
+          "maxHp": 37
+        },
+        {
+          "id": "enemy_wolf_1770118174933_g1qjai",
+          "name": "Lobo Salvaje",
+          "hp": 37,
+          "maxHp": 37
+        }
+      ]
+    },
+    {
+      "turn": 2,
+      "actions": [
+        {
+          "sourceId": "enemy_wolf_1770118174933_p7k9lh",
+          "sourceName": "Lobo Salvaje",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player3",
+          "targetName": "Sim Healer",
+          "targetType": "party",
+          "damage": 11,
+          "defeated": false,
+          "turn": 2,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        },
+        {
+          "sourceId": "enemy_wolf_1770118174933_j19lsk",
+          "sourceName": "Lobo Salvaje",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player3",
+          "targetName": "Sim Healer",
+          "targetType": "party",
+          "damage": 11,
+          "defeated": false,
+          "turn": 2,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        },
+        {
+          "sourceId": "enemy_wolf_1770118174933_1eby0p",
+          "sourceName": "Lobo Salvaje",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player3",
+          "targetName": "Sim Healer",
+          "targetType": "party",
+          "damage": 11,
+          "defeated": false,
+          "turn": 2,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        },
+        {
+          "sourceId": "enemy_wolf_1770118174933_g1qjai",
+          "sourceName": "Lobo Salvaje",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player3",
+          "targetName": "Sim Healer",
+          "targetType": "party",
+          "damage": 11,
+          "defeated": false,
+          "turn": 2,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        },
+        {
+          "sourceId": "sim_player2",
+          "sourceName": "Sim Mage",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_wolf_1770118174933_p7k9lh",
+          "targetName": "Lobo Salvaje",
+          "targetType": "enemy",
+          "damage": 9,
+          "defeated": false,
+          "turn": 2,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        },
+        {
+          "sourceId": "sim_player3",
+          "sourceName": "Sim Healer",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_wolf_1770118174933_p7k9lh",
+          "targetName": "Lobo Salvaje",
+          "targetType": "enemy",
+          "damage": 7,
+          "defeated": false,
+          "turn": 2,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        }
+      ],
+      "damageDealt": {
+        "party": 16,
+        "enemies": 44
+      },
+      "heals": {
+        "party": 0,
+        "enemies": 0
+      },
+      "enemiesDefeated": [],
+      "partyStatus": [
+        {
+          "id": "sim_player2",
+          "name": "Sim Mage",
+          "hp": 6,
+          "maxHp": 65
+        },
+        {
+          "id": "sim_player3",
+          "name": "Sim Healer",
+          "hp": 11,
+          "maxHp": 65
+        }
+      ],
+      "enemyStatus": [
+        {
+          "id": "enemy_wolf_1770118174933_p7k9lh",
+          "name": "Lobo Salvaje",
+          "hp": 5,
+          "maxHp": 37
+        },
+        {
+          "id": "enemy_wolf_1770118174933_j19lsk",
+          "name": "Lobo Salvaje",
+          "hp": 37,
+          "maxHp": 37
+        },
+        {
+          "id": "enemy_wolf_1770118174933_1eby0p",
+          "name": "Lobo Salvaje",
+          "hp": 37,
+          "maxHp": 37
+        },
+        {
+          "id": "enemy_wolf_1770118174933_g1qjai",
+          "name": "Lobo Salvaje",
+          "hp": 37,
+          "maxHp": 37
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "actions": [
+        {
+          "sourceId": "enemy_wolf_1770118174933_p7k9lh",
+          "sourceName": "Lobo Salvaje",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player2",
+          "targetName": "Sim Mage",
+          "targetType": "party",
+          "damage": 11,
+          "defeated": true,
+          "turn": 3,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        },
+        {
+          "sourceId": "enemy_wolf_1770118174933_j19lsk",
+          "sourceName": "Lobo Salvaje",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player3",
+          "targetName": "Sim Healer",
+          "targetType": "party",
+          "damage": 11,
+          "defeated": true,
+          "turn": 3,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        },
+        {
+          "sourceId": "sim_player2",
+          "sourceName": "Sim Mage",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_wolf_1770118174933_p7k9lh",
+          "targetName": "Lobo Salvaje",
+          "targetType": "enemy",
+          "damage": 9,
+          "defeated": true,
+          "turn": 3,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        },
+        {
+          "sourceId": "sim_player3",
+          "sourceName": "Sim Healer",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_wolf_1770118174933_j19lsk",
+          "targetName": "Lobo Salvaje",
+          "targetType": "enemy",
+          "damage": 7,
+          "defeated": false,
+          "turn": 3,
+          "timestamp": "2026-02-03T11:29:34.936Z"
+        }
+      ],
+      "damageDealt": {
+        "party": 16,
+        "enemies": 22
+      },
+      "heals": {
+        "party": 0,
+        "enemies": 0
+      },
+      "enemiesDefeated": [
+        {
+          "enemyId": "enemy_wolf_1770118174933_p7k9lh",
+          "enemyName": "Lobo Salvaje",
+          "killedBy": "Sim Mage",
+          "turn": 3
+        }
+      ],
+      "partyStatus": [
+        {
+          "id": "sim_player2",
+          "name": "Sim Mage",
+          "hp": 0,
+          "maxHp": 65
+        },
+        {
+          "id": "sim_player3",
+          "name": "Sim Healer",
+          "hp": 0,
+          "maxHp": 65
+        }
+      ],
+      "enemyStatus": [
+        {
+          "id": "enemy_wolf_1770118174933_j19lsk",
+          "name": "Lobo Salvaje",
+          "hp": 30,
+          "maxHp": 37
+        },
+        {
+          "id": "enemy_wolf_1770118174933_1eby0p",
+          "name": "Lobo Salvaje",
+          "hp": 37,
+          "maxHp": 37
+        },
+        {
+          "id": "enemy_wolf_1770118174933_g1qjai",
+          "name": "Lobo Salvaje",
+          "hp": 37,
+          "maxHp": 37
+        }
+      ]
+    }
+  ],
+  "outcome": "defeat",
+  "xpEarned": 0,
+  "loot": [],
+  "lootValue": 0,
+  "partyMembers": [
+    {
+      "id": "sim_player2",
+      "name": "Sim Mage",
+      "hp": 50,
+      "maxHp": 65,
+      "level": 7
+    },
+    {
+      "id": "sim_player3",
+      "name": "Sim Healer",
+      "hp": 55,
+      "maxHp": 65,
+      "level": 5
+    }
+  ],
+  "enemies": [
+    {
+      "id": "enemy_wolf_1770118174933_p7k9lh",
+      "name": "Lobo Salvaje",
+      "hp": 37,
+      "maxHp": 37,
+      "level": 12,
+      "rarity": "normal"
+    },
+    {
+      "id": "enemy_wolf_1770118174933_j19lsk",
+      "name": "Lobo Salvaje",
+      "hp": 37,
+      "maxHp": 37,
+      "level": 12,
+      "rarity": "normal"
+    },
+    {
+      "id": "enemy_wolf_1770118174933_1eby0p",
+      "name": "Lobo Salvaje",
+      "hp": 37,
+      "maxHp": 37,
+      "level": 12,
+      "rarity": "normal"
+    },
+    {
+      "id": "enemy_wolf_1770118174933_g1qjai",
+      "name": "Lobo Salvaje",
+      "hp": 37,
+      "maxHp": 37,
+      "level": 12,
+      "rarity": "normal"
+    }
+  ],
+  "enemiesDefeated": [
+    {
+      "enemyId": "enemy_wolf_1770118174933_p7k9lh",
+      "enemyName": "Lobo Salvaje",
+      "killedBy": "Sim Mage",
+      "turn": 3
+    }
+  ],
+  "defeatReason": "All party members defeated",
+  "endTime": "2026-02-03T11:29:34.936Z",
+  "duration": 3,
+  "turnCount": 3
+}

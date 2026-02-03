@@ -1,0 +1,254 @@
+{
+  "battleId": "battle_1770118216399_encounter_1770118216433_d9a472ije",
+  "encounterId": "encounter_1770118216433_d9a472ije",
+  "encounterType": "normal",
+  "enemyType": "spider",
+  "enemyCount": 2,
+  "startTime": "2026-02-03T11:30:16.434Z",
+  "turns": [
+    {
+      "turn": 1,
+      "actions": [
+        {
+          "sourceId": "enemy_spider_1770118216433_8in4ka",
+          "sourceName": "Araña Gigante",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "player3",
+          "targetName": "Legolas",
+          "targetType": "party",
+          "damage": 3,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:16.434Z"
+        },
+        {
+          "sourceId": "enemy_spider_1770118216433_u5e6y5",
+          "sourceName": "Araña Gigante",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "player3",
+          "targetName": "Legolas",
+          "targetType": "party",
+          "damage": 3,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:16.434Z"
+        },
+        {
+          "sourceId": "player3",
+          "sourceName": "Legolas",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_spider_1770118216433_8in4ka",
+          "targetName": "Araña Gigante",
+          "targetType": "enemy",
+          "damage": 29,
+          "defeated": true,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:16.434Z"
+        },
+        {
+          "sourceId": "player1",
+          "sourceName": "Aragorn",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_spider_1770118216433_u5e6y5",
+          "targetName": "Araña Gigante",
+          "targetType": "enemy",
+          "damage": 24,
+          "defeated": true,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:16.434Z"
+        }
+      ],
+      "damageDealt": {
+        "party": 53,
+        "enemies": 6
+      },
+      "heals": {
+        "party": 0,
+        "enemies": 0
+      },
+      "enemiesDefeated": [
+        {
+          "enemyId": "enemy_spider_1770118216433_8in4ka",
+          "enemyName": "Araña Gigante",
+          "killedBy": "Legolas",
+          "turn": 1
+        },
+        {
+          "enemyId": "enemy_spider_1770118216433_u5e6y5",
+          "enemyName": "Araña Gigante",
+          "killedBy": "Aragorn",
+          "turn": 1
+        }
+      ],
+      "partyStatus": [
+        {
+          "id": "player3",
+          "name": "Legolas",
+          "hp": 64,
+          "maxHp": 85
+        },
+        {
+          "id": "player1",
+          "name": "Aragorn",
+          "hp": 80,
+          "maxHp": 100
+        }
+      ],
+      "enemyStatus": []
+    }
+  ],
+  "outcome": "victory",
+  "xpEarned": 140,
+  "loot": [
+    {
+      "id": "item_1770118216434_356246",
+      "name": "Health Potion",
+      "originalName": "Health Potion",
+      "type": "consumable",
+      "rarity": "Común",
+      "rarityLevel": {
+        "name": "Común",
+        "weight": 75,
+        "color": "#FFFFFF",
+        "statMultiplier": 1
+      },
+      "stats": {
+        "heal": 19
+      },
+      "value": 29,
+      "prefix": null,
+      "suffix": null,
+      "color": "#FFFFFF",
+      "requirements": null
+    },
+    {
+      "id": "item_1770118216435_797803",
+      "name": "Health Potion of Health",
+      "originalName": "Health Potion",
+      "type": "consumable",
+      "rarity": "Común",
+      "rarityLevel": {
+        "name": "Común",
+        "weight": 75,
+        "color": "#FFFFFF",
+        "statMultiplier": 1
+      },
+      "stats": {
+        "heal": 19,
+        "health": 15.499144064320324
+      },
+      "value": 30,
+      "prefix": null,
+      "suffix": "of Health",
+      "color": "#FFFFFF",
+      "requirements": null
+    }
+  ],
+  "lootValue": 3,
+  "partyMembers": [
+    {
+      "id": "player3",
+      "name": "Legolas",
+      "hp": 70,
+      "maxHp": 85,
+      "level": 5
+    },
+    {
+      "id": "player1",
+      "name": "Aragorn",
+      "hp": 80,
+      "maxHp": 100,
+      "level": 5
+    }
+  ],
+  "enemies": [
+    {
+      "id": "enemy_spider_1770118216433_8in4ka",
+      "name": "Araña Gigante",
+      "hp": 24,
+      "maxHp": 24,
+      "level": 7,
+      "rarity": "normal"
+    },
+    {
+      "id": "enemy_spider_1770118216433_u5e6y5",
+      "name": "Araña Gigante",
+      "hp": 24,
+      "maxHp": 24,
+      "level": 7,
+      "rarity": "normal"
+    }
+  ],
+  "enemiesDefeated": [
+    {
+      "enemyId": "enemy_spider_1770118216433_8in4ka",
+      "enemyName": "Araña Gigante",
+      "killedBy": "Legolas",
+      "turn": 1
+    },
+    {
+      "enemyId": "enemy_spider_1770118216433_u5e6y5",
+      "enemyName": "Araña Gigante",
+      "killedBy": "Aragorn",
+      "turn": 1
+    }
+  ],
+  "lootDetails": {
+    "table": "GOBLIN",
+    "tableName": "Goblin Loot",
+    "items": [
+      {
+        "id": "item_1770118216434_356246",
+        "name": "Health Potion",
+        "originalName": "Health Potion",
+        "type": "consumable",
+        "rarity": "Común",
+        "rarityLevel": {
+          "name": "Común",
+          "weight": 75,
+          "color": "#FFFFFF",
+          "statMultiplier": 1
+        },
+        "stats": {
+          "heal": 19
+        },
+        "value": 29,
+        "prefix": null,
+        "suffix": null,
+        "color": "#FFFFFF",
+        "requirements": null
+      },
+      {
+        "id": "item_1770118216435_797803",
+        "name": "Health Potion of Health",
+        "originalName": "Health Potion",
+        "type": "consumable",
+        "rarity": "Común",
+        "rarityLevel": {
+          "name": "Común",
+          "weight": 75,
+          "color": "#FFFFFF",
+          "statMultiplier": 1
+        },
+        "stats": {
+          "heal": 19,
+          "health": 15.499144064320324
+        },
+        "value": 30,
+        "prefix": null,
+        "suffix": "of Health",
+        "color": "#FFFFFF",
+        "requirements": null
+      }
+    ],
+    "gold": 3,
+    "luckUsed": 3.5
+  },
+  "endTime": "2026-02-03T11:30:16.435Z",
+  "duration": 1,
+  "turnCount": 1
+}

@@ -1,0 +1,29 @@
+{
+  "id": "player1",
+  "name": "Aragorn",
+  "class": "warrior",
+  "level": 5,
+  "xp": 255,
+  "maxXp": 2500,
+  "hp": 68,
+  "maxHp": 100,
+  "attack": 25,
+  "defense": 15,
+  "speed": 3,
+  "gold": 301,
+  "stats": {
+    "strength": 10,
+    "vitality": 8,
+    "luck": 3
+  },
+  "inventory": [
+    {
+      "name": "Health Potion",
+      "quantity": 3
+    }
+  ],
+  "equipment": {
+    "weapon": "Longsword",
+    "armor": "Chainmail"
+  }
+}

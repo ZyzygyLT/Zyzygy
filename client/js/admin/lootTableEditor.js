@@ -1,0 +1,1 @@
+﻿// lootTableEditor.js

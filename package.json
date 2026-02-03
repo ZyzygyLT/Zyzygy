@@ -1,0 +1,27 @@
+{
+  "name": "wod-claude",
+  "version": "1.0.0",
+  "description": "World of Darkness - Claude Engine",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:unit": "jest tests/unit",
+    "test:integration": "jest tests/integration",
+    "test:e2e": "jest tests/e2e",
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "visualize": "node server/index.js",
+    "db:test": "node scripts/testConnection.js",
+    "db:test:native": "node scripts/testConnectionNative.js",
+    "db:seed": "mysql -u $DB_USER --password=$DB_PASSWORD $DB_NAME < database/seed.sql"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "node-cron": "^4.2.1"
+  }
+}

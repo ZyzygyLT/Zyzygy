@@ -1,0 +1,1102 @@
+{
+  "tickId": 1770118174915,
+  "timestamp": "2026-02-03T11:29:34.925Z",
+  "totalParties": 2,
+  "partiesProcessed": 2,
+  "partiesCompleted": 1,
+  "totalBattles": 2,
+  "totalXpDistributed": 60,
+  "totalLootDistributed": 4,
+  "partyResults": [
+    {
+      "partyId": "sim_party1",
+      "partyName": "Sim Party Alpha",
+      "dungeon": "Sim Dungeon A",
+      "status": "completed",
+      "battles": [
+        {
+          "battleId": "battle_1770118174915_encounter_1770118174925_2yjh6h27s",
+          "encounterId": "encounter_1770118174925_2yjh6h27s",
+          "encounterType": "normal",
+          "enemyType": "skeleton",
+          "enemyCount": 2,
+          "startTime": "2026-02-03T11:29:34.925Z",
+          "turns": [
+            {
+              "turn": 1,
+              "actions": [
+                {
+                  "sourceId": "enemy_skeleton_1770118174925_fwader",
+                  "sourceName": "Esqueleto",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 3,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                },
+                {
+                  "sourceId": "enemy_skeleton_1770118174925_daw9wd",
+                  "sourceName": "Esqueleto",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 3,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                },
+                {
+                  "sourceId": "sim_player1",
+                  "sourceName": "Sim Warrior",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_skeleton_1770118174925_fwader",
+                  "targetName": "Esqueleto",
+                  "targetType": "enemy",
+                  "damage": 14,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                }
+              ],
+              "damageDealt": {
+                "party": 14,
+                "enemies": 6
+              },
+              "heals": {
+                "party": 0,
+                "enemies": 0
+              },
+              "enemiesDefeated": [],
+              "partyStatus": [
+                {
+                  "id": "sim_player1",
+                  "name": "Sim Warrior",
+                  "hp": 54,
+                  "maxHp": 70
+                }
+              ],
+              "enemyStatus": [
+                {
+                  "id": "enemy_skeleton_1770118174925_fwader",
+                  "name": "Esqueleto",
+                  "hp": 16,
+                  "maxHp": 30
+                },
+                {
+                  "id": "enemy_skeleton_1770118174925_daw9wd",
+                  "name": "Esqueleto",
+                  "hp": 30,
+                  "maxHp": 30
+                }
+              ]
+            },
+            {
+              "turn": 2,
+              "actions": [
+                {
+                  "sourceId": "enemy_skeleton_1770118174925_fwader",
+                  "sourceName": "Esqueleto",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 3,
+                  "defeated": false,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                },
+                {
+                  "sourceId": "enemy_skeleton_1770118174925_daw9wd",
+                  "sourceName": "Esqueleto",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 3,
+                  "defeated": false,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                },
+                {
+                  "sourceId": "sim_player1",
+                  "sourceName": "Sim Warrior",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_skeleton_1770118174925_fwader",
+                  "targetName": "Esqueleto",
+                  "targetType": "enemy",
+                  "damage": 14,
+                  "defeated": false,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                }
+              ],
+              "damageDealt": {
+                "party": 14,
+                "enemies": 6
+              },
+              "heals": {
+                "party": 0,
+                "enemies": 0
+              },
+              "enemiesDefeated": [],
+              "partyStatus": [
+                {
+                  "id": "sim_player1",
+                  "name": "Sim Warrior",
+                  "hp": 48,
+                  "maxHp": 70
+                }
+              ],
+              "enemyStatus": [
+                {
+                  "id": "enemy_skeleton_1770118174925_fwader",
+                  "name": "Esqueleto",
+                  "hp": 2,
+                  "maxHp": 30
+                },
+                {
+                  "id": "enemy_skeleton_1770118174925_daw9wd",
+                  "name": "Esqueleto",
+                  "hp": 30,
+                  "maxHp": 30
+                }
+              ]
+            },
+            {
+              "turn": 3,
+              "actions": [
+                {
+                  "sourceId": "enemy_skeleton_1770118174925_fwader",
+                  "sourceName": "Esqueleto",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 3,
+                  "defeated": false,
+                  "turn": 3,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                },
+                {
+                  "sourceId": "enemy_skeleton_1770118174925_daw9wd",
+                  "sourceName": "Esqueleto",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 3,
+                  "defeated": false,
+                  "turn": 3,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                },
+                {
+                  "sourceId": "sim_player1",
+                  "sourceName": "Sim Warrior",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_skeleton_1770118174925_fwader",
+                  "targetName": "Esqueleto",
+                  "targetType": "enemy",
+                  "damage": 14,
+                  "defeated": true,
+                  "turn": 3,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                }
+              ],
+              "damageDealt": {
+                "party": 14,
+                "enemies": 6
+              },
+              "heals": {
+                "party": 0,
+                "enemies": 0
+              },
+              "enemiesDefeated": [
+                {
+                  "enemyId": "enemy_skeleton_1770118174925_fwader",
+                  "enemyName": "Esqueleto",
+                  "killedBy": "Sim Warrior",
+                  "turn": 3
+                }
+              ],
+              "partyStatus": [
+                {
+                  "id": "sim_player1",
+                  "name": "Sim Warrior",
+                  "hp": 42,
+                  "maxHp": 70
+                }
+              ],
+              "enemyStatus": [
+                {
+                  "id": "enemy_skeleton_1770118174925_daw9wd",
+                  "name": "Esqueleto",
+                  "hp": 30,
+                  "maxHp": 30
+                }
+              ]
+            },
+            {
+              "turn": 4,
+              "actions": [
+                {
+                  "sourceId": "enemy_skeleton_1770118174925_daw9wd",
+                  "sourceName": "Esqueleto",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 3,
+                  "defeated": false,
+                  "turn": 4,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                },
+                {
+                  "sourceId": "sim_player1",
+                  "sourceName": "Sim Warrior",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_skeleton_1770118174925_daw9wd",
+                  "targetName": "Esqueleto",
+                  "targetType": "enemy",
+                  "damage": 14,
+                  "defeated": false,
+                  "turn": 4,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                }
+              ],
+              "damageDealt": {
+                "party": 14,
+                "enemies": 3
+              },
+              "heals": {
+                "party": 0,
+                "enemies": 0
+              },
+              "enemiesDefeated": [],
+              "partyStatus": [
+                {
+                  "id": "sim_player1",
+                  "name": "Sim Warrior",
+                  "hp": 39,
+                  "maxHp": 70
+                }
+              ],
+              "enemyStatus": [
+                {
+                  "id": "enemy_skeleton_1770118174925_daw9wd",
+                  "name": "Esqueleto",
+                  "hp": 16,
+                  "maxHp": 30
+                }
+              ]
+            },
+            {
+              "turn": 5,
+              "actions": [
+                {
+                  "sourceId": "enemy_skeleton_1770118174925_daw9wd",
+                  "sourceName": "Esqueleto",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 3,
+                  "defeated": false,
+                  "turn": 5,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                },
+                {
+                  "sourceId": "sim_player1",
+                  "sourceName": "Sim Warrior",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_skeleton_1770118174925_daw9wd",
+                  "targetName": "Esqueleto",
+                  "targetType": "enemy",
+                  "damage": 14,
+                  "defeated": false,
+                  "turn": 5,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                }
+              ],
+              "damageDealt": {
+                "party": 14,
+                "enemies": 3
+              },
+              "heals": {
+                "party": 0,
+                "enemies": 0
+              },
+              "enemiesDefeated": [],
+              "partyStatus": [
+                {
+                  "id": "sim_player1",
+                  "name": "Sim Warrior",
+                  "hp": 36,
+                  "maxHp": 70
+                }
+              ],
+              "enemyStatus": [
+                {
+                  "id": "enemy_skeleton_1770118174925_daw9wd",
+                  "name": "Esqueleto",
+                  "hp": 2,
+                  "maxHp": 30
+                }
+              ]
+            },
+            {
+              "turn": 6,
+              "actions": [
+                {
+                  "sourceId": "enemy_skeleton_1770118174925_daw9wd",
+                  "sourceName": "Esqueleto",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player1",
+                  "targetName": "Sim Warrior",
+                  "targetType": "party",
+                  "damage": 3,
+                  "defeated": false,
+                  "turn": 6,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                },
+                {
+                  "sourceId": "sim_player1",
+                  "sourceName": "Sim Warrior",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_skeleton_1770118174925_daw9wd",
+                  "targetName": "Esqueleto",
+                  "targetType": "enemy",
+                  "damage": 14,
+                  "defeated": true,
+                  "turn": 6,
+                  "timestamp": "2026-02-03T11:29:34.926Z"
+                }
+              ],
+              "damageDealt": {
+                "party": 14,
+                "enemies": 3
+              },
+              "heals": {
+                "party": 0,
+                "enemies": 0
+              },
+              "enemiesDefeated": [
+                {
+                  "enemyId": "enemy_skeleton_1770118174925_daw9wd",
+                  "enemyName": "Esqueleto",
+                  "killedBy": "Sim Warrior",
+                  "turn": 6
+                }
+              ],
+              "partyStatus": [
+                {
+                  "id": "sim_player1",
+                  "name": "Sim Warrior",
+                  "hp": 33,
+                  "maxHp": 70
+                }
+              ],
+              "enemyStatus": []
+            }
+          ],
+          "outcome": "victory",
+          "xpEarned": 60,
+          "loot": [
+            {
+              "id": "item_1770118174926_557262",
+              "name": "Dagger",
+              "originalName": "Dagger",
+              "type": "weapon",
+              "rarity": "Común",
+              "rarityLevel": {
+                "name": "Común",
+                "weight": 75,
+                "color": "#FFFFFF",
+                "statMultiplier": 1
+              },
+              "stats": {
+                "attack": 4
+              },
+              "value": 50,
+              "prefix": null,
+              "suffix": null,
+              "color": "#FFFFFF",
+              "requirements": null
+            },
+            {
+              "id": "item_1770118174926_999572",
+              "name": "Sturdy Dagger",
+              "originalName": "Dagger",
+              "type": "weapon",
+              "rarity": "Común",
+              "rarityLevel": {
+                "name": "Común",
+                "weight": 75,
+                "color": "#FFFFFF",
+                "statMultiplier": 1
+              },
+              "stats": {
+                "attack": 3,
+                "defense": 2.048760181780037
+              },
+              "value": 55,
+              "prefix": "Sturdy",
+              "suffix": null,
+              "color": "#FFFFFF",
+              "requirements": null
+            }
+          ],
+          "lootValue": 4,
+          "partyMembers": [
+            {
+              "id": "sim_player1",
+              "name": "Sim Warrior",
+              "hp": 60,
+              "maxHp": 70,
+              "level": 3
+            }
+          ],
+          "enemies": [
+            {
+              "id": "enemy_skeleton_1770118174925_fwader",
+              "name": "Esqueleto",
+              "hp": 30,
+              "maxHp": 30,
+              "level": 3,
+              "rarity": "normal"
+            },
+            {
+              "id": "enemy_skeleton_1770118174925_daw9wd",
+              "name": "Esqueleto",
+              "hp": 30,
+              "maxHp": 30,
+              "level": 3,
+              "rarity": "normal"
+            }
+          ],
+          "enemiesDefeated": [
+            {
+              "enemyId": "enemy_skeleton_1770118174925_fwader",
+              "enemyName": "Esqueleto",
+              "killedBy": "Sim Warrior",
+              "turn": 3
+            },
+            {
+              "enemyId": "enemy_skeleton_1770118174925_daw9wd",
+              "enemyName": "Esqueleto",
+              "killedBy": "Sim Warrior",
+              "turn": 6
+            }
+          ],
+          "lootDetails": {
+            "table": "GOBLIN",
+            "tableName": "Goblin Loot",
+            "items": [
+              {
+                "id": "item_1770118174926_557262",
+                "name": "Dagger",
+                "originalName": "Dagger",
+                "type": "weapon",
+                "rarity": "Común",
+                "rarityLevel": {
+                  "name": "Común",
+                  "weight": 75,
+                  "color": "#FFFFFF",
+                  "statMultiplier": 1
+                },
+                "stats": {
+                  "attack": 4
+                },
+                "value": 50,
+                "prefix": null,
+                "suffix": null,
+                "color": "#FFFFFF",
+                "requirements": null
+              },
+              {
+                "id": "item_1770118174926_999572",
+                "name": "Sturdy Dagger",
+                "originalName": "Dagger",
+                "type": "weapon",
+                "rarity": "Común",
+                "rarityLevel": {
+                  "name": "Común",
+                  "weight": 75,
+                  "color": "#FFFFFF",
+                  "statMultiplier": 1
+                },
+                "stats": {
+                  "attack": 3,
+                  "defense": 2.048760181780037
+                },
+                "value": 55,
+                "prefix": "Sturdy",
+                "suffix": null,
+                "color": "#FFFFFF",
+                "requirements": null
+              }
+            ],
+            "gold": 4,
+            "luckUsed": 0
+          },
+          "endTime": "2026-02-03T11:29:34.926Z",
+          "duration": 1,
+          "turnCount": 6
+        }
+      ],
+      "totalXp": 60,
+      "totalLoot": [
+        {
+          "id": "item_1770118174926_557262",
+          "name": "Dagger",
+          "originalName": "Dagger",
+          "type": "weapon",
+          "rarity": "Común",
+          "rarityLevel": {
+            "name": "Común",
+            "weight": 75,
+            "color": "#FFFFFF",
+            "statMultiplier": 1
+          },
+          "stats": {
+            "attack": 4
+          },
+          "value": 50,
+          "prefix": null,
+          "suffix": null,
+          "color": "#FFFFFF",
+          "requirements": null
+        },
+        {
+          "id": "item_1770118174926_999572",
+          "name": "Sturdy Dagger",
+          "originalName": "Dagger",
+          "type": "weapon",
+          "rarity": "Común",
+          "rarityLevel": {
+            "name": "Común",
+            "weight": 75,
+            "color": "#FFFFFF",
+            "statMultiplier": 1
+          },
+          "stats": {
+            "attack": 3,
+            "defense": 2.048760181780037
+          },
+          "value": 55,
+          "prefix": "Sturdy",
+          "suffix": null,
+          "color": "#FFFFFF",
+          "requirements": null
+        }
+      ],
+      "totalLootValue": 4,
+      "membersUpdated": [
+        {
+          "id": "sim_player1",
+          "name": "Sim Warrior",
+          "level": 3,
+          "xp": null,
+          "hp": 26,
+          "maxHp": 70
+        }
+      ],
+      "startTime": "2026-02-03T11:29:34.925Z",
+      "goldDistributed": 4,
+      "itemsDistributed": {
+        "playerId": "sim_player1",
+        "playerName": "Sim Warrior",
+        "items": [
+          "Dagger",
+          "Sturdy Dagger"
+        ]
+      },
+      "endTime": "2026-02-03T11:29:34.930Z",
+      "duration": 5
+    },
+    {
+      "partyId": "sim_party2",
+      "partyName": "Sim Party Beta",
+      "dungeon": "Sim Dungeon B",
+      "status": "defeated",
+      "battles": [
+        {
+          "battleId": "battle_1770118174915_encounter_1770118174933_wf87hrecc",
+          "encounterId": "encounter_1770118174933_wf87hrecc",
+          "encounterType": "normal",
+          "enemyType": "wolf",
+          "enemyCount": 4,
+          "startTime": "2026-02-03T11:29:34.936Z",
+          "turns": [
+            {
+              "turn": 1,
+              "actions": [
+                {
+                  "sourceId": "enemy_wolf_1770118174933_p7k9lh",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player2",
+                  "targetName": "Sim Mage",
+                  "targetType": "party",
+                  "damage": 11,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118174933_j19lsk",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player2",
+                  "targetName": "Sim Mage",
+                  "targetType": "party",
+                  "damage": 11,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118174933_1eby0p",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player2",
+                  "targetName": "Sim Mage",
+                  "targetType": "party",
+                  "damage": 11,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118174933_g1qjai",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player2",
+                  "targetName": "Sim Mage",
+                  "targetType": "party",
+                  "damage": 11,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                },
+                {
+                  "sourceId": "sim_player2",
+                  "sourceName": "Sim Mage",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_wolf_1770118174933_p7k9lh",
+                  "targetName": "Lobo Salvaje",
+                  "targetType": "enemy",
+                  "damage": 9,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                },
+                {
+                  "sourceId": "sim_player3",
+                  "sourceName": "Sim Healer",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_wolf_1770118174933_p7k9lh",
+                  "targetName": "Lobo Salvaje",
+                  "targetType": "enemy",
+                  "damage": 7,
+                  "defeated": false,
+                  "turn": 1,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                }
+              ],
+              "damageDealt": {
+                "party": 16,
+                "enemies": 44
+              },
+              "heals": {
+                "party": 0,
+                "enemies": 0
+              },
+              "enemiesDefeated": [],
+              "partyStatus": [
+                {
+                  "id": "sim_player2",
+                  "name": "Sim Mage",
+                  "hp": 6,
+                  "maxHp": 65
+                },
+                {
+                  "id": "sim_player3",
+                  "name": "Sim Healer",
+                  "hp": 55,
+                  "maxHp": 65
+                }
+              ],
+              "enemyStatus": [
+                {
+                  "id": "enemy_wolf_1770118174933_p7k9lh",
+                  "name": "Lobo Salvaje",
+                  "hp": 21,
+                  "maxHp": 37
+                },
+                {
+                  "id": "enemy_wolf_1770118174933_j19lsk",
+                  "name": "Lobo Salvaje",
+                  "hp": 37,
+                  "maxHp": 37
+                },
+                {
+                  "id": "enemy_wolf_1770118174933_1eby0p",
+                  "name": "Lobo Salvaje",
+                  "hp": 37,
+                  "maxHp": 37
+                },
+                {
+                  "id": "enemy_wolf_1770118174933_g1qjai",
+                  "name": "Lobo Salvaje",
+                  "hp": 37,
+                  "maxHp": 37
+                }
+              ]
+            },
+            {
+              "turn": 2,
+              "actions": [
+                {
+                  "sourceId": "enemy_wolf_1770118174933_p7k9lh",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player3",
+                  "targetName": "Sim Healer",
+                  "targetType": "party",
+                  "damage": 11,
+                  "defeated": false,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118174933_j19lsk",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player3",
+                  "targetName": "Sim Healer",
+                  "targetType": "party",
+                  "damage": 11,
+                  "defeated": false,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118174933_1eby0p",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player3",
+                  "targetName": "Sim Healer",
+                  "targetType": "party",
+                  "damage": 11,
+                  "defeated": false,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118174933_g1qjai",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player3",
+                  "targetName": "Sim Healer",
+                  "targetType": "party",
+                  "damage": 11,
+                  "defeated": false,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                },
+                {
+                  "sourceId": "sim_player2",
+                  "sourceName": "Sim Mage",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_wolf_1770118174933_p7k9lh",
+                  "targetName": "Lobo Salvaje",
+                  "targetType": "enemy",
+                  "damage": 9,
+                  "defeated": false,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                },
+                {
+                  "sourceId": "sim_player3",
+                  "sourceName": "Sim Healer",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_wolf_1770118174933_p7k9lh",
+                  "targetName": "Lobo Salvaje",
+                  "targetType": "enemy",
+                  "damage": 7,
+                  "defeated": false,
+                  "turn": 2,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                }
+              ],
+              "damageDealt": {
+                "party": 16,
+                "enemies": 44
+              },
+              "heals": {
+                "party": 0,
+                "enemies": 0
+              },
+              "enemiesDefeated": [],
+              "partyStatus": [
+                {
+                  "id": "sim_player2",
+                  "name": "Sim Mage",
+                  "hp": 6,
+                  "maxHp": 65
+                },
+                {
+                  "id": "sim_player3",
+                  "name": "Sim Healer",
+                  "hp": 11,
+                  "maxHp": 65
+                }
+              ],
+              "enemyStatus": [
+                {
+                  "id": "enemy_wolf_1770118174933_p7k9lh",
+                  "name": "Lobo Salvaje",
+                  "hp": 5,
+                  "maxHp": 37
+                },
+                {
+                  "id": "enemy_wolf_1770118174933_j19lsk",
+                  "name": "Lobo Salvaje",
+                  "hp": 37,
+                  "maxHp": 37
+                },
+                {
+                  "id": "enemy_wolf_1770118174933_1eby0p",
+                  "name": "Lobo Salvaje",
+                  "hp": 37,
+                  "maxHp": 37
+                },
+                {
+                  "id": "enemy_wolf_1770118174933_g1qjai",
+                  "name": "Lobo Salvaje",
+                  "hp": 37,
+                  "maxHp": 37
+                }
+              ]
+            },
+            {
+              "turn": 3,
+              "actions": [
+                {
+                  "sourceId": "enemy_wolf_1770118174933_p7k9lh",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player2",
+                  "targetName": "Sim Mage",
+                  "targetType": "party",
+                  "damage": 11,
+                  "defeated": true,
+                  "turn": 3,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                },
+                {
+                  "sourceId": "enemy_wolf_1770118174933_j19lsk",
+                  "sourceName": "Lobo Salvaje",
+                  "sourceType": "enemy",
+                  "action": "attack",
+                  "targetId": "sim_player3",
+                  "targetName": "Sim Healer",
+                  "targetType": "party",
+                  "damage": 11,
+                  "defeated": true,
+                  "turn": 3,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                },
+                {
+                  "sourceId": "sim_player2",
+                  "sourceName": "Sim Mage",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_wolf_1770118174933_p7k9lh",
+                  "targetName": "Lobo Salvaje",
+                  "targetType": "enemy",
+                  "damage": 9,
+                  "defeated": true,
+                  "turn": 3,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                },
+                {
+                  "sourceId": "sim_player3",
+                  "sourceName": "Sim Healer",
+                  "sourceType": "party",
+                  "action": "attack",
+                  "targetId": "enemy_wolf_1770118174933_j19lsk",
+                  "targetName": "Lobo Salvaje",
+                  "targetType": "enemy",
+                  "damage": 7,
+                  "defeated": false,
+                  "turn": 3,
+                  "timestamp": "2026-02-03T11:29:34.936Z"
+                }
+              ],
+              "damageDealt": {
+                "party": 16,
+                "enemies": 22
+              },
+              "heals": {
+                "party": 0,
+                "enemies": 0
+              },
+              "enemiesDefeated": [
+                {
+                  "enemyId": "enemy_wolf_1770118174933_p7k9lh",
+                  "enemyName": "Lobo Salvaje",
+                  "killedBy": "Sim Mage",
+                  "turn": 3
+                }
+              ],
+              "partyStatus": [
+                {
+                  "id": "sim_player2",
+                  "name": "Sim Mage",
+                  "hp": 0,
+                  "maxHp": 65
+                },
+                {
+                  "id": "sim_player3",
+                  "name": "Sim Healer",
+                  "hp": 0,
+                  "maxHp": 65
+                }
+              ],
+              "enemyStatus": [
+                {
+                  "id": "enemy_wolf_1770118174933_j19lsk",
+                  "name": "Lobo Salvaje",
+                  "hp": 30,
+                  "maxHp": 37
+                },
+                {
+                  "id": "enemy_wolf_1770118174933_1eby0p",
+                  "name": "Lobo Salvaje",
+                  "hp": 37,
+                  "maxHp": 37
+                },
+                {
+                  "id": "enemy_wolf_1770118174933_g1qjai",
+                  "name": "Lobo Salvaje",
+                  "hp": 37,
+                  "maxHp": 37
+                }
+              ]
+            }
+          ],
+          "outcome": "defeat",
+          "xpEarned": 0,
+          "loot": [],
+          "lootValue": 0,
+          "partyMembers": [
+            {
+              "id": "sim_player2",
+              "name": "Sim Mage",
+              "hp": 50,
+              "maxHp": 65,
+              "level": 7
+            },
+            {
+              "id": "sim_player3",
+              "name": "Sim Healer",
+              "hp": 55,
+              "maxHp": 65,
+              "level": 5
+            }
+          ],
+          "enemies": [
+            {
+              "id": "enemy_wolf_1770118174933_p7k9lh",
+              "name": "Lobo Salvaje",
+              "hp": 37,
+              "maxHp": 37,
+              "level": 12,
+              "rarity": "normal"
+            },
+            {
+              "id": "enemy_wolf_1770118174933_j19lsk",
+              "name": "Lobo Salvaje",
+              "hp": 37,
+              "maxHp": 37,
+              "level": 12,
+              "rarity": "normal"
+            },
+            {
+              "id": "enemy_wolf_1770118174933_1eby0p",
+              "name": "Lobo Salvaje",
+              "hp": 37,
+              "maxHp": 37,
+              "level": 12,
+              "rarity": "normal"
+            },
+            {
+              "id": "enemy_wolf_1770118174933_g1qjai",
+              "name": "Lobo Salvaje",
+              "hp": 37,
+              "maxHp": 37,
+              "level": 12,
+              "rarity": "normal"
+            }
+          ],
+          "enemiesDefeated": [
+            {
+              "enemyId": "enemy_wolf_1770118174933_p7k9lh",
+              "enemyName": "Lobo Salvaje",
+              "killedBy": "Sim Mage",
+              "turn": 3
+            }
+          ],
+          "defeatReason": "All party members defeated",
+          "endTime": "2026-02-03T11:29:34.936Z",
+          "duration": 3,
+          "turnCount": 3
+        }
+      ],
+      "totalXp": 0,
+      "totalLoot": [],
+      "totalLootValue": 0,
+      "membersUpdated": [],
+      "startTime": "2026-02-03T11:29:34.933Z",
+      "defeatReason": "Party defeated in battle",
+      "endTime": "2026-02-03T11:29:34.938Z",
+      "duration": 5
+    }
+  ],
+  "errors": [],
+  "duration": 25,
+  "status": "completed"
+}

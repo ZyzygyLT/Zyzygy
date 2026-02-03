@@ -1,0 +1,15 @@
+{
+  "id": "sim_player2",
+  "name": "Sim Mage",
+  "class": "mage",
+  "level": 7,
+  "hp": 50,
+  "maxHp": 65,
+  "attack": 10,
+  "defense": 4,
+  "magic_power": 30,
+  "stats": {
+    "intelligence": 12,
+    "luck": 2
+  }
+}

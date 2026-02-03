@@ -1,0 +1,722 @@
+{
+  "id": "sim_party1",
+  "name": "Sim Party Alpha",
+  "status": "completed",
+  "location": {
+    "type": "dungeon",
+    "name": "Sim Dungeon A",
+    "difficulty": 1,
+    "size": 5
+  },
+  "members": [
+    {
+      "id": "sim_player1",
+      "name": "Sim Warrior",
+      "level": 3,
+      "hp": 60,
+      "maxHp": 70,
+      "attack": 15,
+      "defense": 8
+    }
+  ],
+  "created": "2026-02-03T11:30:37.227Z",
+  "progress": {
+    "battlesCompleted": 1,
+    "totalXpEarned": 90,
+    "totalGoldEarned": 4
+  },
+  "endedAt": "2026-02-03T11:30:37.263Z",
+  "finalResult": {
+    "partyId": "sim_party1",
+    "partyName": "Sim Party Alpha",
+    "dungeon": "Sim Dungeon A",
+    "status": "completed",
+    "battles": [
+      {
+        "battleId": "battle_1770118237233_encounter_1770118237239_oa5hl3rgh",
+        "encounterId": "encounter_1770118237239_oa5hl3rgh",
+        "encounterType": "normal",
+        "enemyType": "spider",
+        "enemyCount": 3,
+        "startTime": "2026-02-03T11:30:37.239Z",
+        "turns": [
+          {
+            "turn": 1,
+            "actions": [
+              {
+                "sourceId": "enemy_spider_1770118237239_xd2i1l",
+                "sourceName": "Araña Gigante",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "sim_player1",
+                "targetName": "Sim Warrior",
+                "targetType": "party",
+                "damage": 2,
+                "defeated": false,
+                "turn": 1,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              },
+              {
+                "sourceId": "enemy_spider_1770118237239_tp1hwy",
+                "sourceName": "Araña Gigante",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "sim_player1",
+                "targetName": "Sim Warrior",
+                "targetType": "party",
+                "damage": 2,
+                "defeated": false,
+                "turn": 1,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              },
+              {
+                "sourceId": "enemy_spider_1770118237239_fq1yhc",
+                "sourceName": "Araña Gigante",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "sim_player1",
+                "targetName": "Sim Warrior",
+                "targetType": "party",
+                "damage": 2,
+                "defeated": false,
+                "turn": 1,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              },
+              {
+                "sourceId": "sim_player1",
+                "sourceName": "Sim Warrior",
+                "sourceType": "party",
+                "action": "attack",
+                "targetId": "enemy_spider_1770118237239_xd2i1l",
+                "targetName": "Araña Gigante",
+                "targetType": "enemy",
+                "damage": 14,
+                "defeated": false,
+                "turn": 1,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              }
+            ],
+            "damageDealt": {
+              "party": 14,
+              "enemies": 6
+            },
+            "heals": {
+              "party": 0,
+              "enemies": 0
+            },
+            "enemiesDefeated": [],
+            "partyStatus": [
+              {
+                "id": "sim_player1",
+                "name": "Sim Warrior",
+                "hp": 54,
+                "maxHp": 70
+              }
+            ],
+            "enemyStatus": [
+              {
+                "id": "enemy_spider_1770118237239_xd2i1l",
+                "name": "Araña Gigante",
+                "hp": 4,
+                "maxHp": 18
+              },
+              {
+                "id": "enemy_spider_1770118237239_tp1hwy",
+                "name": "Araña Gigante",
+                "hp": 18,
+                "maxHp": 18
+              },
+              {
+                "id": "enemy_spider_1770118237239_fq1yhc",
+                "name": "Araña Gigante",
+                "hp": 18,
+                "maxHp": 18
+              }
+            ]
+          },
+          {
+            "turn": 2,
+            "actions": [
+              {
+                "sourceId": "enemy_spider_1770118237239_xd2i1l",
+                "sourceName": "Araña Gigante",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "sim_player1",
+                "targetName": "Sim Warrior",
+                "targetType": "party",
+                "damage": 2,
+                "defeated": false,
+                "turn": 2,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              },
+              {
+                "sourceId": "enemy_spider_1770118237239_tp1hwy",
+                "sourceName": "Araña Gigante",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "sim_player1",
+                "targetName": "Sim Warrior",
+                "targetType": "party",
+                "damage": 2,
+                "defeated": false,
+                "turn": 2,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              },
+              {
+                "sourceId": "enemy_spider_1770118237239_fq1yhc",
+                "sourceName": "Araña Gigante",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "sim_player1",
+                "targetName": "Sim Warrior",
+                "targetType": "party",
+                "damage": 2,
+                "defeated": false,
+                "turn": 2,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              },
+              {
+                "sourceId": "sim_player1",
+                "sourceName": "Sim Warrior",
+                "sourceType": "party",
+                "action": "attack",
+                "targetId": "enemy_spider_1770118237239_xd2i1l",
+                "targetName": "Araña Gigante",
+                "targetType": "enemy",
+                "damage": 14,
+                "defeated": true,
+                "turn": 2,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              }
+            ],
+            "damageDealt": {
+              "party": 14,
+              "enemies": 6
+            },
+            "heals": {
+              "party": 0,
+              "enemies": 0
+            },
+            "enemiesDefeated": [
+              {
+                "enemyId": "enemy_spider_1770118237239_xd2i1l",
+                "enemyName": "Araña Gigante",
+                "killedBy": "Sim Warrior",
+                "turn": 2
+              }
+            ],
+            "partyStatus": [
+              {
+                "id": "sim_player1",
+                "name": "Sim Warrior",
+                "hp": 48,
+                "maxHp": 70
+              }
+            ],
+            "enemyStatus": [
+              {
+                "id": "enemy_spider_1770118237239_tp1hwy",
+                "name": "Araña Gigante",
+                "hp": 18,
+                "maxHp": 18
+              },
+              {
+                "id": "enemy_spider_1770118237239_fq1yhc",
+                "name": "Araña Gigante",
+                "hp": 18,
+                "maxHp": 18
+              }
+            ]
+          },
+          {
+            "turn": 3,
+            "actions": [
+              {
+                "sourceId": "enemy_spider_1770118237239_tp1hwy",
+                "sourceName": "Araña Gigante",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "sim_player1",
+                "targetName": "Sim Warrior",
+                "targetType": "party",
+                "damage": 2,
+                "defeated": false,
+                "turn": 3,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              },
+              {
+                "sourceId": "enemy_spider_1770118237239_fq1yhc",
+                "sourceName": "Araña Gigante",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "sim_player1",
+                "targetName": "Sim Warrior",
+                "targetType": "party",
+                "damage": 2,
+                "defeated": false,
+                "turn": 3,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              },
+              {
+                "sourceId": "sim_player1",
+                "sourceName": "Sim Warrior",
+                "sourceType": "party",
+                "action": "attack",
+                "targetId": "enemy_spider_1770118237239_tp1hwy",
+                "targetName": "Araña Gigante",
+                "targetType": "enemy",
+                "damage": 14,
+                "defeated": false,
+                "turn": 3,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              }
+            ],
+            "damageDealt": {
+              "party": 14,
+              "enemies": 4
+            },
+            "heals": {
+              "party": 0,
+              "enemies": 0
+            },
+            "enemiesDefeated": [],
+            "partyStatus": [
+              {
+                "id": "sim_player1",
+                "name": "Sim Warrior",
+                "hp": 44,
+                "maxHp": 70
+              }
+            ],
+            "enemyStatus": [
+              {
+                "id": "enemy_spider_1770118237239_tp1hwy",
+                "name": "Araña Gigante",
+                "hp": 4,
+                "maxHp": 18
+              },
+              {
+                "id": "enemy_spider_1770118237239_fq1yhc",
+                "name": "Araña Gigante",
+                "hp": 18,
+                "maxHp": 18
+              }
+            ]
+          },
+          {
+            "turn": 4,
+            "actions": [
+              {
+                "sourceId": "enemy_spider_1770118237239_tp1hwy",
+                "sourceName": "Araña Gigante",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "sim_player1",
+                "targetName": "Sim Warrior",
+                "targetType": "party",
+                "damage": 2,
+                "defeated": false,
+                "turn": 4,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              },
+              {
+                "sourceId": "enemy_spider_1770118237239_fq1yhc",
+                "sourceName": "Araña Gigante",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "sim_player1",
+                "targetName": "Sim Warrior",
+                "targetType": "party",
+                "damage": 2,
+                "defeated": false,
+                "turn": 4,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              },
+              {
+                "sourceId": "sim_player1",
+                "sourceName": "Sim Warrior",
+                "sourceType": "party",
+                "action": "attack",
+                "targetId": "enemy_spider_1770118237239_tp1hwy",
+                "targetName": "Araña Gigante",
+                "targetType": "enemy",
+                "damage": 14,
+                "defeated": true,
+                "turn": 4,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              }
+            ],
+            "damageDealt": {
+              "party": 14,
+              "enemies": 4
+            },
+            "heals": {
+              "party": 0,
+              "enemies": 0
+            },
+            "enemiesDefeated": [
+              {
+                "enemyId": "enemy_spider_1770118237239_tp1hwy",
+                "enemyName": "Araña Gigante",
+                "killedBy": "Sim Warrior",
+                "turn": 4
+              }
+            ],
+            "partyStatus": [
+              {
+                "id": "sim_player1",
+                "name": "Sim Warrior",
+                "hp": 40,
+                "maxHp": 70
+              }
+            ],
+            "enemyStatus": [
+              {
+                "id": "enemy_spider_1770118237239_fq1yhc",
+                "name": "Araña Gigante",
+                "hp": 18,
+                "maxHp": 18
+              }
+            ]
+          },
+          {
+            "turn": 5,
+            "actions": [
+              {
+                "sourceId": "enemy_spider_1770118237239_fq1yhc",
+                "sourceName": "Araña Gigante",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "sim_player1",
+                "targetName": "Sim Warrior",
+                "targetType": "party",
+                "damage": 2,
+                "defeated": false,
+                "turn": 5,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              },
+              {
+                "sourceId": "sim_player1",
+                "sourceName": "Sim Warrior",
+                "sourceType": "party",
+                "action": "attack",
+                "targetId": "enemy_spider_1770118237239_fq1yhc",
+                "targetName": "Araña Gigante",
+                "targetType": "enemy",
+                "damage": 14,
+                "defeated": false,
+                "turn": 5,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              }
+            ],
+            "damageDealt": {
+              "party": 14,
+              "enemies": 2
+            },
+            "heals": {
+              "party": 0,
+              "enemies": 0
+            },
+            "enemiesDefeated": [],
+            "partyStatus": [
+              {
+                "id": "sim_player1",
+                "name": "Sim Warrior",
+                "hp": 38,
+                "maxHp": 70
+              }
+            ],
+            "enemyStatus": [
+              {
+                "id": "enemy_spider_1770118237239_fq1yhc",
+                "name": "Araña Gigante",
+                "hp": 4,
+                "maxHp": 18
+              }
+            ]
+          },
+          {
+            "turn": 6,
+            "actions": [
+              {
+                "sourceId": "enemy_spider_1770118237239_fq1yhc",
+                "sourceName": "Araña Gigante",
+                "sourceType": "enemy",
+                "action": "attack",
+                "targetId": "sim_player1",
+                "targetName": "Sim Warrior",
+                "targetType": "party",
+                "damage": 2,
+                "defeated": false,
+                "turn": 6,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              },
+              {
+                "sourceId": "sim_player1",
+                "sourceName": "Sim Warrior",
+                "sourceType": "party",
+                "action": "attack",
+                "targetId": "enemy_spider_1770118237239_fq1yhc",
+                "targetName": "Araña Gigante",
+                "targetType": "enemy",
+                "damage": 14,
+                "defeated": true,
+                "turn": 6,
+                "timestamp": "2026-02-03T11:30:37.240Z"
+              }
+            ],
+            "damageDealt": {
+              "party": 14,
+              "enemies": 2
+            },
+            "heals": {
+              "party": 0,
+              "enemies": 0
+            },
+            "enemiesDefeated": [
+              {
+                "enemyId": "enemy_spider_1770118237239_fq1yhc",
+                "enemyName": "Araña Gigante",
+                "killedBy": "Sim Warrior",
+                "turn": 6
+              }
+            ],
+            "partyStatus": [
+              {
+                "id": "sim_player1",
+                "name": "Sim Warrior",
+                "hp": 36,
+                "maxHp": 70
+              }
+            ],
+            "enemyStatus": []
+          }
+        ],
+        "outcome": "victory",
+        "xpEarned": 90,
+        "loot": [
+          {
+            "id": "item_1770118237240_893912",
+            "name": "Goblin Ear",
+            "originalName": "Goblin Ear",
+            "type": "material",
+            "rarity": "Poco Común",
+            "rarityLevel": {
+              "name": "Poco Común",
+              "weight": 15,
+              "color": "#1EFF00",
+              "statMultiplier": 1.3
+            },
+            "stats": {
+              "value": 3
+            },
+            "value": 12,
+            "prefix": null,
+            "suffix": null,
+            "color": "#1EFF00",
+            "requirements": null
+          },
+          {
+            "id": "item_1770118237240_518896",
+            "name": "Leather Armor",
+            "originalName": "Leather Armor",
+            "type": "armor",
+            "rarity": "Común",
+            "rarityLevel": {
+              "name": "Común",
+              "weight": 75,
+              "color": "#FFFFFF",
+              "statMultiplier": 1
+            },
+            "stats": {
+              "defense": 2
+            },
+            "value": 22,
+            "prefix": null,
+            "suffix": null,
+            "color": "#FFFFFF",
+            "requirements": null
+          }
+        ],
+        "lootValue": 4,
+        "partyMembers": [
+          {
+            "id": "sim_player1",
+            "name": "Sim Warrior",
+            "hp": 60,
+            "maxHp": 70,
+            "level": 3
+          }
+        ],
+        "enemies": [
+          {
+            "id": "enemy_spider_1770118237239_xd2i1l",
+            "name": "Araña Gigante",
+            "hp": 18,
+            "maxHp": 18,
+            "level": 3,
+            "rarity": "normal"
+          },
+          {
+            "id": "enemy_spider_1770118237239_tp1hwy",
+            "name": "Araña Gigante",
+            "hp": 18,
+            "maxHp": 18,
+            "level": 3,
+            "rarity": "normal"
+          },
+          {
+            "id": "enemy_spider_1770118237239_fq1yhc",
+            "name": "Araña Gigante",
+            "hp": 18,
+            "maxHp": 18,
+            "level": 3,
+            "rarity": "normal"
+          }
+        ],
+        "enemiesDefeated": [
+          {
+            "enemyId": "enemy_spider_1770118237239_xd2i1l",
+            "enemyName": "Araña Gigante",
+            "killedBy": "Sim Warrior",
+            "turn": 2
+          },
+          {
+            "enemyId": "enemy_spider_1770118237239_tp1hwy",
+            "enemyName": "Araña Gigante",
+            "killedBy": "Sim Warrior",
+            "turn": 4
+          },
+          {
+            "enemyId": "enemy_spider_1770118237239_fq1yhc",
+            "enemyName": "Araña Gigante",
+            "killedBy": "Sim Warrior",
+            "turn": 6
+          }
+        ],
+        "lootDetails": {
+          "table": "GOBLIN",
+          "tableName": "Goblin Loot",
+          "items": [
+            {
+              "id": "item_1770118237240_893912",
+              "name": "Goblin Ear",
+              "originalName": "Goblin Ear",
+              "type": "material",
+              "rarity": "Poco Común",
+              "rarityLevel": {
+                "name": "Poco Común",
+                "weight": 15,
+                "color": "#1EFF00",
+                "statMultiplier": 1.3
+              },
+              "stats": {
+                "value": 3
+              },
+              "value": 12,
+              "prefix": null,
+              "suffix": null,
+              "color": "#1EFF00",
+              "requirements": null
+            },
+            {
+              "id": "item_1770118237240_518896",
+              "name": "Leather Armor",
+              "originalName": "Leather Armor",
+              "type": "armor",
+              "rarity": "Común",
+              "rarityLevel": {
+                "name": "Común",
+                "weight": 75,
+                "color": "#FFFFFF",
+                "statMultiplier": 1
+              },
+              "stats": {
+                "defense": 2
+              },
+              "value": 22,
+              "prefix": null,
+              "suffix": null,
+              "color": "#FFFFFF",
+              "requirements": null
+            }
+          ],
+          "gold": 4,
+          "luckUsed": 1
+        },
+        "endTime": "2026-02-03T11:30:37.240Z",
+        "duration": 1,
+        "turnCount": 6
+      }
+    ],
+    "totalXp": 90,
+    "totalLoot": [
+      {
+        "id": "item_1770118237240_893912",
+        "name": "Goblin Ear",
+        "originalName": "Goblin Ear",
+        "type": "material",
+        "rarity": "Poco Común",
+        "rarityLevel": {
+          "name": "Poco Común",
+          "weight": 15,
+          "color": "#1EFF00",
+          "statMultiplier": 1.3
+        },
+        "stats": {
+          "value": 3
+        },
+        "value": 12,
+        "prefix": null,
+        "suffix": null,
+        "color": "#1EFF00",
+        "requirements": null
+      },
+      {
+        "id": "item_1770118237240_518896",
+        "name": "Leather Armor",
+        "originalName": "Leather Armor",
+        "type": "armor",
+        "rarity": "Común",
+        "rarityLevel": {
+          "name": "Común",
+          "weight": 75,
+          "color": "#FFFFFF",
+          "statMultiplier": 1
+        },
+        "stats": {
+          "defense": 2
+        },
+        "value": 22,
+        "prefix": null,
+        "suffix": null,
+        "color": "#FFFFFF",
+        "requirements": null
+      }
+    ],
+    "totalLootValue": 4,
+    "membersUpdated": [
+      {
+        "id": "sim_player1",
+        "name": "Sim Warrior",
+        "level": 3,
+        "xp": null,
+        "hp": 29,
+        "maxHp": 70
+      }
+    ],
+    "startTime": "2026-02-03T11:30:37.239Z",
+    "goldDistributed": 4,
+    "itemsDistributed": {
+      "playerId": "sim_player1",
+      "playerName": "Sim Warrior",
+      "items": [
+        "Goblin Ear",
+        "Leather Armor"
+      ]
+    },
+    "endTime": "2026-02-03T11:30:37.247Z",
+    "duration": 8
+  }
+}

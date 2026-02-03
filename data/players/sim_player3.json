@@ -1,0 +1,14 @@
+{
+  "id": "sim_player3",
+  "name": "Sim Healer",
+  "class": "healer",
+  "level": 5,
+  "hp": 55,
+  "maxHp": 65,
+  "attack": 8,
+  "defense": 6,
+  "stats": {
+    "wisdom": 10,
+    "luck": 1
+  }
+}

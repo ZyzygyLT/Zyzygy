@@ -1,0 +1,200 @@
+{
+  "battleId": "battle_1770118237233_encounter_1770118237250_0kwq1hwce",
+  "encounterId": "encounter_1770118237250_0kwq1hwce",
+  "encounterType": "normal",
+  "enemyType": "skeleton",
+  "enemyCount": 4,
+  "startTime": "2026-02-03T11:30:37.254Z",
+  "turns": [
+    {
+      "turn": 1,
+      "actions": [
+        {
+          "sourceId": "enemy_skeleton_1770118237249_ccslq5",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player3",
+          "targetName": "Sim Healer",
+          "targetType": "party",
+          "damage": 7,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:37.254Z"
+        },
+        {
+          "sourceId": "enemy_skeleton_1770118237250_vzv7te",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player2",
+          "targetName": "Sim Mage",
+          "targetType": "party",
+          "damage": 7,
+          "defeated": true,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:37.254Z"
+        },
+        {
+          "sourceId": "enemy_skeleton_1770118237250_1tzal8",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player3",
+          "targetName": "Sim Healer",
+          "targetType": "party",
+          "damage": 7,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:37.254Z"
+        },
+        {
+          "sourceId": "enemy_skeleton_1770118237250_fdzch2",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "sim_player3",
+          "targetName": "Sim Healer",
+          "targetType": "party",
+          "damage": 7,
+          "defeated": true,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:37.254Z"
+        },
+        {
+          "sourceId": "sim_player2",
+          "sourceName": "Sim Mage",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_skeleton_1770118237249_ccslq5",
+          "targetName": "Esqueleto",
+          "targetType": "enemy",
+          "damage": 9,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:37.254Z"
+        },
+        {
+          "sourceId": "sim_player3",
+          "sourceName": "Sim Healer",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_skeleton_1770118237249_ccslq5",
+          "targetName": "Esqueleto",
+          "targetType": "enemy",
+          "damage": 7,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:37.254Z"
+        }
+      ],
+      "damageDealt": {
+        "party": 16,
+        "enemies": 28
+      },
+      "heals": {
+        "party": 0,
+        "enemies": 0
+      },
+      "enemiesDefeated": [],
+      "partyStatus": [
+        {
+          "id": "sim_player2",
+          "name": "Sim Mage",
+          "hp": 0,
+          "maxHp": 65
+        },
+        {
+          "id": "sim_player3",
+          "name": "Sim Healer",
+          "hp": 0,
+          "maxHp": 65
+        }
+      ],
+      "enemyStatus": [
+        {
+          "id": "enemy_skeleton_1770118237249_ccslq5",
+          "name": "Esqueleto",
+          "hp": 36,
+          "maxHp": 52
+        },
+        {
+          "id": "enemy_skeleton_1770118237250_vzv7te",
+          "name": "Esqueleto",
+          "hp": 52,
+          "maxHp": 52
+        },
+        {
+          "id": "enemy_skeleton_1770118237250_1tzal8",
+          "name": "Esqueleto",
+          "hp": 52,
+          "maxHp": 52
+        },
+        {
+          "id": "enemy_skeleton_1770118237250_fdzch2",
+          "name": "Esqueleto",
+          "hp": 52,
+          "maxHp": 52
+        }
+      ]
+    }
+  ],
+  "outcome": "defeat",
+  "xpEarned": 0,
+  "loot": [],
+  "lootValue": 0,
+  "partyMembers": [
+    {
+      "id": "sim_player2",
+      "name": "Sim Mage",
+      "hp": 1,
+      "maxHp": 65,
+      "level": 7
+    },
+    {
+      "id": "sim_player3",
+      "name": "Sim Healer",
+      "hp": 21,
+      "maxHp": 65,
+      "level": 5
+    }
+  ],
+  "enemies": [
+    {
+      "id": "enemy_skeleton_1770118237249_ccslq5",
+      "name": "Esqueleto",
+      "hp": 52,
+      "maxHp": 52,
+      "level": 12,
+      "rarity": "normal"
+    },
+    {
+      "id": "enemy_skeleton_1770118237250_vzv7te",
+      "name": "Esqueleto",
+      "hp": 52,
+      "maxHp": 52,
+      "level": 12,
+      "rarity": "normal"
+    },
+    {
+      "id": "enemy_skeleton_1770118237250_1tzal8",
+      "name": "Esqueleto",
+      "hp": 52,
+      "maxHp": 52,
+      "level": 12,
+      "rarity": "normal"
+    },
+    {
+      "id": "enemy_skeleton_1770118237250_fdzch2",
+      "name": "Esqueleto",
+      "hp": 52,
+      "maxHp": 52,
+      "level": 12,
+      "rarity": "normal"
+    }
+  ],
+  "defeatReason": "All party members defeated",
+  "endTime": "2026-02-03T11:30:37.255Z",
+  "duration": 1,
+  "turnCount": 1
+}

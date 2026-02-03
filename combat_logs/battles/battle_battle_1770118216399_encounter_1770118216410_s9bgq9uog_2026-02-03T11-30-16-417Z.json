@@ -1,0 +1,631 @@
+{
+  "battleId": "battle_1770118216399_encounter_1770118216410_s9bgq9uog",
+  "encounterId": "encounter_1770118216410_s9bgq9uog",
+  "encounterType": "normal",
+  "enemyType": "skeleton",
+  "enemyCount": 3,
+  "startTime": "2026-02-03T11:30:16.412Z",
+  "turns": [
+    {
+      "turn": 1,
+      "actions": [
+        {
+          "sourceId": "player1",
+          "sourceName": "Aragorn",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_skeleton_1770118216409_shkkjf",
+          "targetName": "Esqueleto",
+          "targetType": "enemy",
+          "damage": 24,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:16.413Z"
+        },
+        {
+          "sourceId": "enemy_skeleton_1770118216409_shkkjf",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "player1",
+          "targetName": "Aragorn",
+          "targetType": "party",
+          "damage": 5,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:16.413Z"
+        },
+        {
+          "sourceId": "enemy_skeleton_1770118216410_zsqyci",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "player1",
+          "targetName": "Aragorn",
+          "targetType": "party",
+          "damage": 5,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:16.413Z"
+        },
+        {
+          "sourceId": "enemy_skeleton_1770118216410_cgsgal",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "player2",
+          "targetName": "Gandalf",
+          "targetType": "party",
+          "damage": 6,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:16.413Z"
+        },
+        {
+          "sourceId": "player2",
+          "sourceName": "Gandalf",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_skeleton_1770118216409_shkkjf",
+          "targetName": "Esqueleto",
+          "targetType": "enemy",
+          "damage": 14,
+          "defeated": false,
+          "turn": 1,
+          "timestamp": "2026-02-03T11:30:16.413Z"
+        }
+      ],
+      "damageDealt": {
+        "party": 38,
+        "enemies": 16
+      },
+      "heals": {
+        "party": 0,
+        "enemies": 0
+      },
+      "enemiesDefeated": [],
+      "partyStatus": [
+        {
+          "id": "player1",
+          "name": "Aragorn",
+          "hp": 70,
+          "maxHp": 100
+        },
+        {
+          "id": "player2",
+          "name": "Gandalf",
+          "hp": 54,
+          "maxHp": 80
+        }
+      ],
+      "enemyStatus": [
+        {
+          "id": "enemy_skeleton_1770118216409_shkkjf",
+          "name": "Esqueleto",
+          "hp": 7,
+          "maxHp": 45
+        },
+        {
+          "id": "enemy_skeleton_1770118216410_zsqyci",
+          "name": "Esqueleto",
+          "hp": 45,
+          "maxHp": 45
+        },
+        {
+          "id": "enemy_skeleton_1770118216410_cgsgal",
+          "name": "Esqueleto",
+          "hp": 45,
+          "maxHp": 45
+        }
+      ]
+    },
+    {
+      "turn": 2,
+      "actions": [
+        {
+          "sourceId": "player1",
+          "sourceName": "Aragorn",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_skeleton_1770118216409_shkkjf",
+          "targetName": "Esqueleto",
+          "targetType": "enemy",
+          "damage": 24,
+          "defeated": true,
+          "turn": 2,
+          "timestamp": "2026-02-03T11:30:16.413Z"
+        },
+        {
+          "sourceId": "enemy_skeleton_1770118216409_shkkjf",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "player1",
+          "targetName": "Aragorn",
+          "targetType": "party",
+          "damage": 5,
+          "defeated": false,
+          "turn": 2,
+          "timestamp": "2026-02-03T11:30:16.413Z"
+        },
+        {
+          "sourceId": "enemy_skeleton_1770118216410_zsqyci",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "player1",
+          "targetName": "Aragorn",
+          "targetType": "party",
+          "damage": 5,
+          "defeated": false,
+          "turn": 2,
+          "timestamp": "2026-02-03T11:30:16.413Z"
+        },
+        {
+          "sourceId": "enemy_skeleton_1770118216410_cgsgal",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "player1",
+          "targetName": "Aragorn",
+          "targetType": "party",
+          "damage": 5,
+          "defeated": false,
+          "turn": 2,
+          "timestamp": "2026-02-03T11:30:16.413Z"
+        },
+        {
+          "sourceId": "player2",
+          "sourceName": "Gandalf",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_skeleton_1770118216410_zsqyci",
+          "targetName": "Esqueleto",
+          "targetType": "enemy",
+          "damage": 14,
+          "defeated": false,
+          "turn": 2,
+          "timestamp": "2026-02-03T11:30:16.413Z"
+        }
+      ],
+      "damageDealt": {
+        "party": 38,
+        "enemies": 15
+      },
+      "heals": {
+        "party": 0,
+        "enemies": 0
+      },
+      "enemiesDefeated": [
+        {
+          "enemyId": "enemy_skeleton_1770118216409_shkkjf",
+          "enemyName": "Esqueleto",
+          "killedBy": "Aragorn",
+          "turn": 2
+        }
+      ],
+      "partyStatus": [
+        {
+          "id": "player1",
+          "name": "Aragorn",
+          "hp": 55,
+          "maxHp": 100
+        },
+        {
+          "id": "player2",
+          "name": "Gandalf",
+          "hp": 54,
+          "maxHp": 80
+        }
+      ],
+      "enemyStatus": [
+        {
+          "id": "enemy_skeleton_1770118216410_zsqyci",
+          "name": "Esqueleto",
+          "hp": 31,
+          "maxHp": 45
+        },
+        {
+          "id": "enemy_skeleton_1770118216410_cgsgal",
+          "name": "Esqueleto",
+          "hp": 45,
+          "maxHp": 45
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "actions": [
+        {
+          "sourceId": "player1",
+          "sourceName": "Aragorn",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_skeleton_1770118216410_zsqyci",
+          "targetName": "Esqueleto",
+          "targetType": "enemy",
+          "damage": 24,
+          "defeated": false,
+          "turn": 3,
+          "timestamp": "2026-02-03T11:30:16.413Z"
+        },
+        {
+          "sourceId": "enemy_skeleton_1770118216410_zsqyci",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "player2",
+          "targetName": "Gandalf",
+          "targetType": "party",
+          "damage": 6,
+          "defeated": false,
+          "turn": 3,
+          "timestamp": "2026-02-03T11:30:16.414Z"
+        },
+        {
+          "sourceId": "enemy_skeleton_1770118216410_cgsgal",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "player2",
+          "targetName": "Gandalf",
+          "targetType": "party",
+          "damage": 6,
+          "defeated": false,
+          "turn": 3,
+          "timestamp": "2026-02-03T11:30:16.414Z"
+        },
+        {
+          "sourceId": "player2",
+          "sourceName": "Gandalf",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_skeleton_1770118216410_zsqyci",
+          "targetName": "Esqueleto",
+          "targetType": "enemy",
+          "damage": 14,
+          "defeated": true,
+          "turn": 3,
+          "timestamp": "2026-02-03T11:30:16.414Z"
+        }
+      ],
+      "damageDealt": {
+        "party": 38,
+        "enemies": 12
+      },
+      "heals": {
+        "party": 0,
+        "enemies": 0
+      },
+      "enemiesDefeated": [
+        {
+          "enemyId": "enemy_skeleton_1770118216410_zsqyci",
+          "enemyName": "Esqueleto",
+          "killedBy": "Gandalf",
+          "turn": 3
+        }
+      ],
+      "partyStatus": [
+        {
+          "id": "player1",
+          "name": "Aragorn",
+          "hp": 55,
+          "maxHp": 100
+        },
+        {
+          "id": "player2",
+          "name": "Gandalf",
+          "hp": 42,
+          "maxHp": 80
+        }
+      ],
+      "enemyStatus": [
+        {
+          "id": "enemy_skeleton_1770118216410_cgsgal",
+          "name": "Esqueleto",
+          "hp": 45,
+          "maxHp": 45
+        }
+      ]
+    },
+    {
+      "turn": 4,
+      "actions": [
+        {
+          "sourceId": "player1",
+          "sourceName": "Aragorn",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_skeleton_1770118216410_cgsgal",
+          "targetName": "Esqueleto",
+          "targetType": "enemy",
+          "damage": 24,
+          "defeated": false,
+          "turn": 4,
+          "timestamp": "2026-02-03T11:30:16.414Z"
+        },
+        {
+          "sourceId": "enemy_skeleton_1770118216410_cgsgal",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "player2",
+          "targetName": "Gandalf",
+          "targetType": "party",
+          "damage": 6,
+          "defeated": false,
+          "turn": 4,
+          "timestamp": "2026-02-03T11:30:16.414Z"
+        },
+        {
+          "sourceId": "player2",
+          "sourceName": "Gandalf",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_skeleton_1770118216410_cgsgal",
+          "targetName": "Esqueleto",
+          "targetType": "enemy",
+          "damage": 14,
+          "defeated": false,
+          "turn": 4,
+          "timestamp": "2026-02-03T11:30:16.414Z"
+        }
+      ],
+      "damageDealt": {
+        "party": 38,
+        "enemies": 6
+      },
+      "heals": {
+        "party": 0,
+        "enemies": 0
+      },
+      "enemiesDefeated": [],
+      "partyStatus": [
+        {
+          "id": "player1",
+          "name": "Aragorn",
+          "hp": 55,
+          "maxHp": 100
+        },
+        {
+          "id": "player2",
+          "name": "Gandalf",
+          "hp": 36,
+          "maxHp": 80
+        }
+      ],
+      "enemyStatus": [
+        {
+          "id": "enemy_skeleton_1770118216410_cgsgal",
+          "name": "Esqueleto",
+          "hp": 7,
+          "maxHp": 45
+        }
+      ]
+    },
+    {
+      "turn": 5,
+      "actions": [
+        {
+          "sourceId": "player1",
+          "sourceName": "Aragorn",
+          "sourceType": "party",
+          "action": "attack",
+          "targetId": "enemy_skeleton_1770118216410_cgsgal",
+          "targetName": "Esqueleto",
+          "targetType": "enemy",
+          "damage": 24,
+          "defeated": true,
+          "turn": 5,
+          "timestamp": "2026-02-03T11:30:16.414Z"
+        },
+        {
+          "sourceId": "enemy_skeleton_1770118216410_cgsgal",
+          "sourceName": "Esqueleto",
+          "sourceType": "enemy",
+          "action": "attack",
+          "targetId": "player2",
+          "targetName": "Gandalf",
+          "targetType": "party",
+          "damage": 6,
+          "defeated": false,
+          "turn": 5,
+          "timestamp": "2026-02-03T11:30:16.414Z"
+        }
+      ],
+      "damageDealt": {
+        "party": 24,
+        "enemies": 6
+      },
+      "heals": {
+        "party": 0,
+        "enemies": 0
+      },
+      "enemiesDefeated": [
+        {
+          "enemyId": "enemy_skeleton_1770118216410_cgsgal",
+          "enemyName": "Esqueleto",
+          "killedBy": "Aragorn",
+          "turn": 5
+        }
+      ],
+      "partyStatus": [
+        {
+          "id": "player1",
+          "name": "Aragorn",
+          "hp": 55,
+          "maxHp": 100
+        },
+        {
+          "id": "player2",
+          "name": "Gandalf",
+          "hp": 30,
+          "maxHp": 80
+        }
+      ],
+      "enemyStatus": []
+    }
+  ],
+  "outcome": "victory",
+  "xpEarned": 270,
+  "loot": [
+    {
+      "id": "item_1770118216416_552174",
+      "name": "Leather Armor",
+      "originalName": "Leather Armor",
+      "type": "armor",
+      "rarity": "Común",
+      "rarityLevel": {
+        "name": "Común",
+        "weight": 75,
+        "color": "#FFFFFF",
+        "statMultiplier": 1
+      },
+      "stats": {
+        "defense": 2
+      },
+      "value": 22,
+      "prefix": null,
+      "suffix": null,
+      "color": "#FFFFFF",
+      "requirements": null
+    },
+    {
+      "id": "item_1770118216416_856080",
+      "name": "Leather Armor",
+      "originalName": "Leather Armor",
+      "type": "armor",
+      "rarity": "Poco Común",
+      "rarityLevel": {
+        "name": "Poco Común",
+        "weight": 15,
+        "color": "#1EFF00",
+        "statMultiplier": 1.3
+      },
+      "stats": {
+        "defense": 3
+      },
+      "value": 32,
+      "prefix": null,
+      "suffix": null,
+      "color": "#1EFF00",
+      "requirements": null
+    }
+  ],
+  "lootValue": 2,
+  "partyMembers": [
+    {
+      "id": "player1",
+      "name": "Aragorn",
+      "hp": 80,
+      "maxHp": 100,
+      "level": 5
+    },
+    {
+      "id": "player2",
+      "name": "Gandalf",
+      "hp": 60,
+      "maxHp": 80,
+      "level": 6
+    }
+  ],
+  "enemies": [
+    {
+      "id": "enemy_skeleton_1770118216409_shkkjf",
+      "name": "Esqueleto",
+      "hp": 45,
+      "maxHp": 45,
+      "level": 9,
+      "rarity": "normal"
+    },
+    {
+      "id": "enemy_skeleton_1770118216410_zsqyci",
+      "name": "Esqueleto",
+      "hp": 45,
+      "maxHp": 45,
+      "level": 9,
+      "rarity": "normal"
+    },
+    {
+      "id": "enemy_skeleton_1770118216410_cgsgal",
+      "name": "Esqueleto",
+      "hp": 45,
+      "maxHp": 45,
+      "level": 9,
+      "rarity": "normal"
+    }
+  ],
+  "enemiesDefeated": [
+    {
+      "enemyId": "enemy_skeleton_1770118216409_shkkjf",
+      "enemyName": "Esqueleto",
+      "killedBy": "Aragorn",
+      "turn": 2
+    },
+    {
+      "enemyId": "enemy_skeleton_1770118216410_zsqyci",
+      "enemyName": "Esqueleto",
+      "killedBy": "Gandalf",
+      "turn": 3
+    },
+    {
+      "enemyId": "enemy_skeleton_1770118216410_cgsgal",
+      "enemyName": "Esqueleto",
+      "killedBy": "Aragorn",
+      "turn": 5
+    }
+  ],
+  "lootDetails": {
+    "table": "GOBLIN",
+    "tableName": "Goblin Loot",
+    "items": [
+      {
+        "id": "item_1770118216416_552174",
+        "name": "Leather Armor",
+        "originalName": "Leather Armor",
+        "type": "armor",
+        "rarity": "Común",
+        "rarityLevel": {
+          "name": "Común",
+          "weight": 75,
+          "color": "#FFFFFF",
+          "statMultiplier": 1
+        },
+        "stats": {
+          "defense": 2
+        },
+        "value": 22,
+        "prefix": null,
+        "suffix": null,
+        "color": "#FFFFFF",
+        "requirements": null
+      },
+      {
+        "id": "item_1770118216416_856080",
+        "name": "Leather Armor",
+        "originalName": "Leather Armor",
+        "type": "armor",
+        "rarity": "Poco Común",
+        "rarityLevel": {
+          "name": "Poco Común",
+          "weight": 15,
+          "color": "#1EFF00",
+          "statMultiplier": 1.3
+        },
+        "stats": {
+          "defense": 3
+        },
+        "value": 32,
+        "prefix": null,
+        "suffix": null,
+        "color": "#1EFF00",
+        "requirements": null
+      }
+    ],
+    "gold": 2,
+    "luckUsed": 2.5
+  },
+  "endTime": "2026-02-03T11:30:16.416Z",
+  "duration": 5,
+  "turnCount": 5
+}

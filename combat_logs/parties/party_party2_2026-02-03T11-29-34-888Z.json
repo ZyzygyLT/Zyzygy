@@ -1,0 +1,412 @@
+{
+  "partyId": "party2",
+  "partyName": "Los Exploradores",
+  "dungeon": "Bosque Encantado",
+  "status": "completed",
+  "battles": [
+    {
+      "battleId": "battle_1770118174850_encounter_1770118174878_13f1jz8fs",
+      "encounterId": "encounter_1770118174878_13f1jz8fs",
+      "encounterType": "normal",
+      "enemyType": "skeleton",
+      "enemyCount": 2,
+      "startTime": "2026-02-03T11:29:34.878Z",
+      "turns": [
+        {
+          "turn": 1,
+          "actions": [
+            {
+              "sourceId": "player3",
+              "sourceName": "Legolas",
+              "sourceType": "party",
+              "action": "attack",
+              "targetId": "enemy_skeleton_1770118174878_l4l9ke",
+              "targetName": "Esqueleto",
+              "targetType": "enemy",
+              "damage": 29,
+              "defeated": false,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:29:34.879Z"
+            },
+            {
+              "sourceId": "player1",
+              "sourceName": "Aragorn",
+              "sourceType": "party",
+              "action": "attack",
+              "targetId": "enemy_skeleton_1770118174878_l4l9ke",
+              "targetName": "Esqueleto",
+              "targetType": "enemy",
+              "damage": 24,
+              "defeated": true,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:29:34.879Z"
+            },
+            {
+              "sourceId": "enemy_skeleton_1770118174878_l4l9ke",
+              "sourceName": "Esqueleto",
+              "sourceType": "enemy",
+              "action": "attack",
+              "targetId": "player1",
+              "targetName": "Aragorn",
+              "targetType": "party",
+              "damage": 4,
+              "defeated": false,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:29:34.879Z"
+            },
+            {
+              "sourceId": "enemy_skeleton_1770118174878_8uwggz",
+              "sourceName": "Esqueleto",
+              "sourceType": "enemy",
+              "action": "attack",
+              "targetId": "player1",
+              "targetName": "Aragorn",
+              "targetType": "party",
+              "damage": 4,
+              "defeated": false,
+              "turn": 1,
+              "timestamp": "2026-02-03T11:29:34.879Z"
+            }
+          ],
+          "damageDealt": {
+            "party": 53,
+            "enemies": 8
+          },
+          "heals": {
+            "party": 0,
+            "enemies": 0
+          },
+          "enemiesDefeated": [
+            {
+              "enemyId": "enemy_skeleton_1770118174878_l4l9ke",
+              "enemyName": "Esqueleto",
+              "killedBy": "Aragorn",
+              "turn": 1
+            }
+          ],
+          "partyStatus": [
+            {
+              "id": "player3",
+              "name": "Legolas",
+              "hp": 70,
+              "maxHp": 85
+            },
+            {
+              "id": "player1",
+              "name": "Aragorn",
+              "hp": 72,
+              "maxHp": 100
+            }
+          ],
+          "enemyStatus": [
+            {
+              "id": "enemy_skeleton_1770118174878_8uwggz",
+              "name": "Esqueleto",
+              "hp": 40,
+              "maxHp": 40
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "actions": [
+            {
+              "sourceId": "player3",
+              "sourceName": "Legolas",
+              "sourceType": "party",
+              "action": "attack",
+              "targetId": "enemy_skeleton_1770118174878_8uwggz",
+              "targetName": "Esqueleto",
+              "targetType": "enemy",
+              "damage": 29,
+              "defeated": false,
+              "turn": 2,
+              "timestamp": "2026-02-03T11:29:34.879Z"
+            },
+            {
+              "sourceId": "player1",
+              "sourceName": "Aragorn",
+              "sourceType": "party",
+              "action": "attack",
+              "targetId": "enemy_skeleton_1770118174878_8uwggz",
+              "targetName": "Esqueleto",
+              "targetType": "enemy",
+              "damage": 24,
+              "defeated": true,
+              "turn": 2,
+              "timestamp": "2026-02-03T11:29:34.879Z"
+            },
+            {
+              "sourceId": "enemy_skeleton_1770118174878_8uwggz",
+              "sourceName": "Esqueleto",
+              "sourceType": "enemy",
+              "action": "attack",
+              "targetId": "player3",
+              "targetName": "Legolas",
+              "targetType": "party",
+              "damage": 5,
+              "defeated": false,
+              "turn": 2,
+              "timestamp": "2026-02-03T11:29:34.879Z"
+            }
+          ],
+          "damageDealt": {
+            "party": 53,
+            "enemies": 5
+          },
+          "heals": {
+            "party": 0,
+            "enemies": 0
+          },
+          "enemiesDefeated": [
+            {
+              "enemyId": "enemy_skeleton_1770118174878_8uwggz",
+              "enemyName": "Esqueleto",
+              "killedBy": "Aragorn",
+              "turn": 2
+            }
+          ],
+          "partyStatus": [
+            {
+              "id": "player3",
+              "name": "Legolas",
+              "hp": 65,
+              "maxHp": 85
+            },
+            {
+              "id": "player1",
+              "name": "Aragorn",
+              "hp": 72,
+              "maxHp": 100
+            }
+          ],
+          "enemyStatus": []
+        }
+      ],
+      "outcome": "victory",
+      "xpEarned": 140,
+      "loot": [
+        {
+          "id": "item_1770118174880_209048",
+          "name": "Health Potion",
+          "originalName": "Health Potion",
+          "type": "consumable",
+          "rarity": "Poco Común",
+          "rarityLevel": {
+            "name": "Poco Común",
+            "weight": 15,
+            "color": "#1EFF00",
+            "statMultiplier": 1.3
+          },
+          "stats": {
+            "heal": 29
+          },
+          "value": 44,
+          "prefix": null,
+          "suffix": null,
+          "color": "#1EFF00",
+          "requirements": null
+        },
+        {
+          "id": "item_1770118174880_131711",
+          "name": "Leather Armor",
+          "originalName": "Leather Armor",
+          "type": "armor",
+          "rarity": "Común",
+          "rarityLevel": {
+            "name": "Común",
+            "weight": 75,
+            "color": "#FFFFFF",
+            "statMultiplier": 1
+          },
+          "stats": {
+            "defense": 1
+          },
+          "value": 16,
+          "prefix": null,
+          "suffix": null,
+          "color": "#FFFFFF",
+          "requirements": null
+        }
+      ],
+      "lootValue": 1,
+      "partyMembers": [
+        {
+          "id": "player3",
+          "name": "Legolas",
+          "hp": 70,
+          "maxHp": 85,
+          "level": 5
+        },
+        {
+          "id": "player1",
+          "name": "Aragorn",
+          "hp": 80,
+          "maxHp": 100,
+          "level": 5
+        }
+      ],
+      "enemies": [
+        {
+          "id": "enemy_skeleton_1770118174878_l4l9ke",
+          "name": "Esqueleto",
+          "hp": 40,
+          "maxHp": 40,
+          "level": 7,
+          "rarity": "normal"
+        },
+        {
+          "id": "enemy_skeleton_1770118174878_8uwggz",
+          "name": "Esqueleto",
+          "hp": 40,
+          "maxHp": 40,
+          "level": 7,
+          "rarity": "normal"
+        }
+      ],
+      "enemiesDefeated": [
+        {
+          "enemyId": "enemy_skeleton_1770118174878_l4l9ke",
+          "enemyName": "Esqueleto",
+          "killedBy": "Aragorn",
+          "turn": 1
+        },
+        {
+          "enemyId": "enemy_skeleton_1770118174878_8uwggz",
+          "enemyName": "Esqueleto",
+          "killedBy": "Aragorn",
+          "turn": 2
+        }
+      ],
+      "lootDetails": {
+        "table": "GOBLIN",
+        "tableName": "Goblin Loot",
+        "items": [
+          {
+            "id": "item_1770118174880_209048",
+            "name": "Health Potion",
+            "originalName": "Health Potion",
+            "type": "consumable",
+            "rarity": "Poco Común",
+            "rarityLevel": {
+              "name": "Poco Común",
+              "weight": 15,
+              "color": "#1EFF00",
+              "statMultiplier": 1.3
+            },
+            "stats": {
+              "heal": 29
+            },
+            "value": 44,
+            "prefix": null,
+            "suffix": null,
+            "color": "#1EFF00",
+            "requirements": null
+          },
+          {
+            "id": "item_1770118174880_131711",
+            "name": "Leather Armor",
+            "originalName": "Leather Armor",
+            "type": "armor",
+            "rarity": "Común",
+            "rarityLevel": {
+              "name": "Común",
+              "weight": 75,
+              "color": "#FFFFFF",
+              "statMultiplier": 1
+            },
+            "stats": {
+              "defense": 1
+            },
+            "value": 16,
+            "prefix": null,
+            "suffix": null,
+            "color": "#FFFFFF",
+            "requirements": null
+          }
+        ],
+        "gold": 1,
+        "luckUsed": 3.5
+      },
+      "endTime": "2026-02-03T11:29:34.880Z",
+      "duration": 2,
+      "turnCount": 2
+    }
+  ],
+  "totalXp": 140,
+  "totalLoot": [
+    {
+      "id": "item_1770118174880_209048",
+      "name": "Health Potion",
+      "originalName": "Health Potion",
+      "type": "consumable",
+      "rarity": "Poco Común",
+      "rarityLevel": {
+        "name": "Poco Común",
+        "weight": 15,
+        "color": "#1EFF00",
+        "statMultiplier": 1.3
+      },
+      "stats": {
+        "heal": 29
+      },
+      "value": 44,
+      "prefix": null,
+      "suffix": null,
+      "color": "#1EFF00",
+      "requirements": null
+    },
+    {
+      "id": "item_1770118174880_131711",
+      "name": "Leather Armor",
+      "originalName": "Leather Armor",
+      "type": "armor",
+      "rarity": "Común",
+      "rarityLevel": {
+        "name": "Común",
+        "weight": 75,
+        "color": "#FFFFFF",
+        "statMultiplier": 1
+      },
+      "stats": {
+        "defense": 1
+      },
+      "value": 16,
+      "prefix": null,
+      "suffix": null,
+      "color": "#FFFFFF",
+      "requirements": null
+    }
+  ],
+  "totalLootValue": 1,
+  "membersUpdated": [
+    {
+      "id": "player3",
+      "name": "Legolas",
+      "level": 5,
+      "xp": 270,
+      "hp": 57,
+      "maxHp": 85
+    },
+    {
+      "id": "player1",
+      "name": "Aragorn",
+      "level": 5,
+      "xp": 220,
+      "hp": 62,
+      "maxHp": 100
+    }
+  ],
+  "startTime": "2026-02-03T11:29:34.877Z",
+  "goldDistributed": 0,
+  "itemsDistributed": {
+    "playerId": "player3",
+    "playerName": "Legolas",
+    "items": [
+      "Health Potion",
+      "Leather Armor"
+    ]
+  },
+  "endTime": "2026-02-03T11:29:34.888Z",
+  "duration": 11
+}
